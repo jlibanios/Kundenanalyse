@@ -118,10 +118,71 @@ Ebenfalls nicht gesetzlich vorgeschrieben, seltener explizit beworben:
 | **Nicht gefunden** | Keine Erwähnung in den geprüften Anzeigen/Karriereseite. | Hohes Potenzial. |
 | **Gefunden** | Explizit erwähnt (mit oder ohne Details). | Geringeres Potenzial für dieses Produkt, sofern keine Hinweise auf Unzufriedenheit/Lücken vorliegen. |
 
+## Kontextfaktoren, die die Reifegrade schärfen
+
+Diese drei Faktoren sind kein eigener Basis-Score-Bestandteil, sondern verfeinern die
+Produkt-Reifegrade aus Schritt 2, bevor du in Schritt 3 die Ampel bildest. Recherchiere
+sie wo möglich, aber erfinde nichts - wenn nichts auffindbar ist, werte einfach nicht (kein
+Malus für fehlende Information, keine Vermutung ins Blaue).
+
+### Altersstruktur der Belegschaft (schärft bAV)
+
+Hinweise findest du in Kununu-Kommentaren, Presseartikeln ("Durchschnittsalter X Jahre",
+Zitate zu "erfahrenen Kolleg:innen" oder "junger, dynamischer Truppe"), oder daran, ob
+Stellenanzeigen gezielt "Berufserfahrene"/"Wiedereinsteiger:innen 50+" ansprechen bzw.
+umgekehrt stark auf Berufseinsteiger und Trainee-Programme setzen.
+
+- **Überdurchschnittlich alte Belegschaft** (viele Beschäftigte in Rentennähe): erhöht die
+  bAV-Dringlichkeit unabhängig vom reinen Reifegrad. Selbst eine "Ausgebaut,
+  Standard"-bAV kann hier noch Beratungsbedarf haben (z.B. rentennahe Beratung,
+  Anpassung der Kapitalanlage). Liegt der Reifegrad ohnehin schon nah an der Grenze
+  zwischen zwei Stufen, darf eine alte Altersstruktur die bAV-Ampel um eine Stufe anheben.
+- **Junge/wachsende Belegschaft**: bAV ist weniger dringend im klassischen Sinn (lange
+  Zeit bis zur Rente), aber ein Ansatzpunkt für moderne, digitale bAV-Lösungen als
+  Recruiting-Argument statt reiner Altersvorsorge.
+
+### Tarifbindung & Betriebsrat (schärft bAV-Einordnung, beeinflusst den Ansprache-Weg)
+
+Prüfe auf Hinweise wie "Vergütung nach Tarif", "IG Metall-Tarifvertrag", "Tarifvertrag
+des Handwerks", "TVöD" (öffentlicher Dienst), sowie auf die Erwähnung eines Betriebsrats
+(Stellenanzeigen, Karriereseite, Kununu, Presse).
+
+- **Tarifgebunden mit branchenüblicher tariflicher bAV** (z.B. MetallRente in der Metall-
+  und Elektroindustrie, tarifliche Regelungen im Handwerk oder öffentlichen Dienst):
+  Tarifverträge werden selten im Detail in Stellenanzeigen ausgeschrieben - eine
+  Tarifbindung kann also eine bereits über das gesetzliche Minimum hinausgehende bAV
+  bedeuten, auch wenn in den Anzeigen nichts Genaueres steht. Ist eine Tarifbindung
+  erkennbar, aber keine bAV-Details auffindbar, stufe den Reifegrad vorsichtshalber nicht
+  niedriger als "Ausgebaut, Standard" ein (statt "Gesetzliches Minimum") und weise im
+  Bericht auf diese Unsicherheit hin, statt fälschlich einen Weißfleck zu vermuten.
+- **Betriebsrat vorhanden:** Bei der betrieblichen Altersversorgung hat der Betriebsrat
+  ein Mitbestimmungsrecht (§87 BetrVG) - er ist damit Verhandlungspartner und möglicher
+  Anstoßgeber zugleich. Erwähne im Bericht, dass eine Ansprache über oder mit früher
+  Einbindung von HR/Betriebsrat sinnvoll sein kann, statt ihn zu übergehen.
+- **Keine erkennbare Tarifbindung, kein Betriebsrat:** meist kleinere/mittlere
+  Unternehmen mit direkteren Entscheidungswegen - eine Ansprache direkt über
+  Geschäftsführung/HR ist hier meist der schnellere Weg.
+
+### Schichtarbeit & körperliche Belastung (schärft Gruppenunfallversicherung)
+
+Prüfe Stellenanzeigen auf Begriffe wie "Schichtarbeit", "2-/3-Schicht-System",
+"Wechselschicht", "Nachtschicht", sowie auf körperlich anspruchsvolle Tätigkeitsfelder
+(Produktion, Bau, Logistik/Fahrpersonal, Pflege, Handwerk).
+
+- **Schichtarbeit und/oder körperlich anspruchsvolle Tätigkeiten erkennbar:** erhöht das
+  Unfallrisiko der Belegschaft spürbar und damit die sachliche Dringlichkeit einer
+  Gruppenunfallversicherung. Das ist ein starkes, konkretes Verkaufsargument, besonders
+  bei Reifegrad "Nicht gefunden" ("Ihre Mitarbeitenden tragen ein erhöhtes
+  Unfallrisiko, sind dafür aber bisher nicht zusätzlich abgesichert"). Kann die
+  Unfallversicherungs-Ampel bei knapper Einordnung um eine Stufe anheben.
+- **Überwiegend Bürotätigkeiten ohne Schichtarbeit:** Unfallversicherung bleibt relevant,
+  aber das Argument ist eher generisches Fürsorge-/Employer-Branding-Argument als
+  konkretes Risikoargument - keine Abwertung, nur ein weniger zwingender Aufhänger.
+
 ## Schritt 3: Ampel je Produkt
 
-Kombiniere Basis-Score (Schritt 1) und Produkt-Reifegrad (Schritt 2) zu je einer Ampel
-pro Produkt. Als Faustregel:
+Kombiniere Basis-Score (Schritt 1), Produkt-Reifegrad (Schritt 2) und die
+Kontextfaktoren zu je einer Ampel pro Produkt. Als Faustregel:
 
 - **Basis-Score "Schwach"** deckelt alle drei Ampeln auf 🔴 Niedrig, unabhängig vom
   Reifegrad - eine Firma in wirtschaftlicher Schieflage ist aktuell kein guter
@@ -134,6 +195,11 @@ pro Produkt. Als Faustregel:
 - **Basis-Score "Gut" oder "Mittel"** + Reifegrad "Stark ausgebaut, aktiv
   beworben"/"umfangreich" → 🟡 Mittel für Cross-Selling der anderen Produkte, aber 🔴
   Niedrig für gezielte Neuansprache bei genau diesem Produkt.
+- **Passende Kontextfaktoren heben die jeweilige Produkt-Ampel um höchstens eine Stufe
+  an**, wenn der Reifegrad ohnehin knapp an der Grenze zwischen zwei Stufen lag (z.B.
+  alte Altersstruktur bei bAV, Schichtarbeit bei Unfallversicherung) - sie ersetzen nie
+  den Basis-Score-Deckel bei "Schwach" und drücken eine Ampel nie nach unten, sie
+  bestärken höchstens ein ohnehin vorhandenes Potenzial.
 
 Bei überwiegend unbekannten/lückenhaften Daten: gib die wahrscheinlichste Einstufung ab,
 kennzeichne sie aber explizit als vorläufig ("🟡 Mittel (vorläufig, Datenbasis

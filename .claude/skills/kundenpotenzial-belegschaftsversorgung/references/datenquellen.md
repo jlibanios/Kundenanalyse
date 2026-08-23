@@ -65,6 +65,35 @@ drei Produkte als Nachweis - notiere sie als "keine konkrete Aussage möglich", 
 Vermerke im Bericht immer Quelle und Datum der geprüften Anzeigen, damit die Einschätzung
 nachvollziehbar bleibt.
 
+Achte beim Lesen der Anzeigen zusätzlich auf **Schichtarbeit und körperliche Belastung**
+(schärft später die Unfallversicherungs-Einordnung, siehe `bewertungskriterien.md`):
+Begriffe wie "Schichtarbeit", "2-/3-Schicht-System", "Wechselschicht", "Nachtschicht",
+sowie Tätigkeitsbeschreibungen aus Produktion, Bau, Logistik/Fahrpersonal, Pflege oder
+Handwerk.
+
+## Belegschaftsstruktur: Altersstruktur, Tarifbindung, Betriebsrat
+
+Diese drei Faktoren schärfen vor allem die bAV-Einordnung (siehe
+`bewertungskriterien.md`) und sind oft nebenbei recherchierbar, wenn du ohnehin schon
+Presse, Kununu und Stellenanzeigen liest - dafür ist keine separate, aufwändige
+Zusatzrecherche nötig.
+
+**Altersstruktur:** Kununu-Kommentare ("erfahrenes Team", "viele langjährige
+Kolleg:innen"), Presseartikel mit Angaben wie "Durchschnittsalter X Jahre", Fotos/
+Testimonials auf der Karriereseite, oder Stellenanzeigen, die gezielt
+"Berufserfahrene"/"Wiedereinsteiger:innen" ansprechen (Hinweis auf ältere Belegschaft)
+bzw. stark auf Trainee-Programme und Berufseinsteiger setzen (Hinweis auf jüngere
+Belegschaft).
+
+**Tarifbindung:** Suchbegriffe/Formulierungen: "Vergütung nach Tarif", "IG
+Metall-Tarifvertrag", "Tarifvertrag des Handwerks", "TVöD" (öffentlicher Dienst),
+"tarifgebunden". Oft direkt in Stellenanzeigen genannt ("Wir vergüten nach dem
+Tarifvertrag der Metall- und Elektroindustrie").
+
+**Betriebsrat:** Erwähnungen auf der Karriereseite, in Stellenanzeigen ("in
+Zusammenarbeit mit unserem Betriebsrat"), in Kununu-Bewertungen, oder in
+Betriebsratswahl-Meldungen der Lokalpresse.
+
 ## Presse und Öffentlichkeitsarbeit
 
 Presse-Recherche ist kein reiner Lückenfüller für fehlende Bilanzzahlen, sondern ein

@@ -10,6 +10,8 @@
 | Sitz | [Ort] |
 | Branche | [Branche] |
 | Website | [URL] |
+| Tarifbindung | [z.B. "Metall- und Elektroindustrie" / "keine erkennbar" / "unbekannt"] |
+| Betriebsrat | [Vorhanden / Nicht erkennbar / Unbekannt] |
 | Quelle | [z.B. Handelsregister, Firmenwebsite] |
 
 ## 2. Umsatzentwicklung
@@ -63,6 +65,11 @@ Begründung, inkl. Hinweis auf Eigentümerwechsel/M&A falls relevant]
 **Reifegrad:** [Kein Hinweis / Gesetzliches Minimum / Ausgebaut, Standard / Stark
 ausgebaut, aktiv beworben] – [1-2 Sätze Begründung]
 
+**Altersstruktur & Tarifbindung (Kontextfaktoren):** [1-2 Sätze - z.B. "Altersstruktur
+unbekannt" / "überdurchschnittlich alte Belegschaft laut Kununu, erhöht bAV-Dringlichkeit"
+/ "tarifgebunden (IG Metall), bAV vermutlich bereits über gesetzliches Minimum hinaus -
+Reifegrad-Einschätzung mit Vorbehalt"]
+
 ## 7. Betriebliche Krankenversicherung (bKV)
 
 | Anzeige (Position, Quelle, Datum) | Was zur bKV genannt wird |
@@ -79,6 +86,10 @@ Sätze Begründung]
 | [...] | [z.B. "keine Erwähnung" / "explizit genannt"] |
 
 **Reifegrad:** [Nicht gefunden / Gefunden] – [1-2 Sätze Begründung]
+
+**Schichtarbeit & körperliche Belastung (Kontextfaktor):** [1-2 Sätze - z.B. "Mehrschicht-
+betrieb in der Produktion laut Stellenanzeigen, erhöht Unfallrisiko und damit die
+Dringlichkeit" / "überwiegend Bürotätigkeiten, kein erhöhtes Unfallrisiko erkennbar"]
 
 ## 9. Gesamtfazit & Potenzial-Einstufung je Produkt
 

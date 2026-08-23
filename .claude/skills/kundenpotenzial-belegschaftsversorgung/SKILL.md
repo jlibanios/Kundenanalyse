@@ -31,6 +31,11 @@ sie **getrennt** statt in einem Topf:
   Absage. Bei bKV und Gruppenunfallversicherung ist das anders - beide sind nicht
   gesetzlich vorgeschrieben und deutlich seltener vorhanden, hier ist "nicht gefunden"
   tatsächlich ein starkes positives Signal.
+- **Altersstruktur, Tarifbindung/Betriebsrat und Schichtarbeit** schärfen die Einordnung
+  zusätzlich: eine alte Belegschaft erhöht die bAV-Dringlichkeit, eine erkennbare
+  Tarifbindung kann eine bereits über das Minimum hinausgehende bAV bedeuten (auch ohne
+  Erwähnung in Stellenanzeigen), und Schichtarbeit/körperliche Belastung ist ein starkes
+  Argument für die Gruppenunfallversicherung.
 
 Details zur genauen Bewertungslogik stehen in `references/bewertungskriterien.md`.
 
@@ -58,12 +63,14 @@ Offenlegungspflicht befreit sind), nutze Proxy-Indikatoren (z.B. Mitarbeiterzahl
 auf LinkedIn, Presseartikel über Expansion/Neubau/Stellenabbau, Bonitätshinweise) und
 mach transparent, dass es sich um Näherungswerte handelt.
 
-### 3. Branche & Fachkräftesituation einordnen
+### 3. Branche, Fachkräftesituation & Belegschaftsstruktur einordnen
 
 Ordne die Branche der Firma grob nach Fachkräfte-Dringlichkeit ein (hoch/mittel/gering)
 und belege das nach Möglichkeit mit einer Quelle (z.B. Presseartikel oder
-Branchenverband zum Fachkräftemangel in der Branche). Die Einordnungshilfe mit
-Beispielbranchen steht in `references/bewertungskriterien.md`.
+Branchenverband zum Fachkräftemangel in der Branche). Prüfe außerdem, soweit auffindbar,
+die **Altersstruktur der Belegschaft** und **Tarifbindung/Betriebsrat** - beide schärfen
+später speziell die bAV-Einordnung. Die Einordnungshilfen mit Beispielbranchen und den
+Kontextfaktoren stehen in `references/bewertungskriterien.md`.
 
 ### 4. Stellenanzeigen prüfen - bAV, bKV und Unfallversicherung getrennt
 
@@ -72,8 +79,10 @@ Karriereseite) und prüfe für **jedes der drei Produkte einzeln**, was dort bew
 nicht als ein gemeinsames "Benefits vorhanden ja/nein". Schau dir dafür mehrere aktuelle
 Anzeigen an (idealerweise 3-5), nicht nur eine - einzelne Anzeigen sind manchmal
 unvollständig gepflegt. Achte bei bAV besonders auf Qualitätssignale (Zuschuss über das
-gesetzliche Minimum hinaus, genannter Anbieter) statt nur auf die reine Erwähnung - Details
-und Suchbegriffe je Produkt stehen in `references/datenquellen.md`.
+gesetzliche Minimum hinaus, genannter Anbieter) statt nur auf die reine Erwähnung. Achte
+außerdem auf Hinweise zu **Schichtarbeit oder körperlich anspruchsvollen Tätigkeiten** -
+das schärft später die Unfallversicherungs-Einordnung. Details und Suchbegriffe je
+Faktor stehen in `references/datenquellen.md`.
 
 ### 5. Presse- und Öffentlichkeitsrecherche
 
