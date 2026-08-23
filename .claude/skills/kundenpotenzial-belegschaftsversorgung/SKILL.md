@@ -1,6 +1,6 @@
 ---
 name: kundenpotenzial-belegschaftsversorgung
-description: Bewertet, ob ein Unternehmen ein vielversprechender Vertriebs-Lead für eine Beratung zur Belegschaftsversorgung ist (betriebliche Altersvorsorge/bAV, betriebliche Krankenversicherung/bKV, Gruppenunfallversicherung u.ä.). Recherchiert Umsatz- und Mitarbeiterentwicklung der letzten Jahre sowie aktuelle Stellenanzeigen auf bereits beworbene Benefits und erstellt daraus eine strukturierte Potenzialeinschätzung (Ampel hoch/mittel/niedrig) mit Begründung. Nutze diesen Skill IMMER, wenn nach dem Kundenpotenzial, der Vertriebsreife, einer Lead-Qualifizierung oder einer Potenzialanalyse für eine konkrete Firma im Kontext von Belegschaftsversorgung, betrieblicher Altersvorsorge, bAV, bKV, Mitarbeiter-Benefits oder Gruppenversicherungen gefragt wird - auch wenn nur ein Firmenname oder eine Website genannt wird und nicht wörtlich "Skill" oder "Analyse" gesagt wird (z.B. "Lohnt sich eine Ansprache bei Firma X?", "Ist Firma Y ein guter Kunde für bAV-Beratung?", "Check mal das Potenzial von...", "Passt die Firma für unser Thema?").
+description: Bewertet, ob ein Unternehmen ein vielversprechender Vertriebs-Lead für eine Beratung zur Belegschaftsversorgung ist - mit getrennter Potenzial-Ampel je Produkt für betriebliche Altersvorsorge (bAV), betriebliche Krankenversicherung (bKV) und Gruppenunfallversicherung. Recherchiert Umsatz- und Mitarbeiterentwicklung, Branche/Fachkräftesituation, aktuelle Presseberichterstattung sowie Stellenanzeigen auf bereits beworbene Benefits je Produkt. Eine bereits vorhandene bAV zählt dabei NICHT automatisch als Ausschlusskriterium, sondern wird nach Reifegrad bewertet (gesetzliches Minimum vs. ausgebaut) - anders als bei bKV/Unfallversicherung, wo Abwesenheit ein starkes positives Signal ist. Nutze diesen Skill IMMER, wenn nach dem Kundenpotenzial, der Vertriebsreife, einer Lead-Qualifizierung oder einer Potenzialanalyse für eine konkrete Firma im Kontext von Belegschaftsversorgung, betrieblicher Altersvorsorge, bAV, bKV, Mitarbeiter-Benefits oder Gruppenversicherungen gefragt wird - auch wenn nur ein Firmenname oder eine Website genannt wird und nicht wörtlich "Skill" oder "Analyse" gesagt wird (z.B. "Lohnt sich eine Ansprache bei Firma X?", "Ist Firma Y ein guter Kunde für bAV-Beratung?", "Check mal das Potenzial von...", "Passt die Firma für unser Thema?").
 compatibility: Benötigt Internetrecherche (WebSearch/WebFetch) für Firmendaten, Finanzkennzahlen und Stellenanzeigen. Für eine Word-Version des Berichts wird zusätzlich der docx-Skill genutzt, falls vorhanden.
 ---
 
@@ -9,18 +9,30 @@ compatibility: Benötigt Internetrecherche (WebSearch/WebFetch) für Firmendaten
 ## Worum es geht
 
 Ein Vertriebsmitarbeiter oder Berater will vor einer Kundenansprache schnell einschätzen,
-ob sich der Aufwand einer Ansprache zum Thema Belegschaftsversorgung (betriebliche
-Altersvorsorge/bAV, betriebliche Krankenversicherung/bKV, Gruppenunfallversicherung,
-sonstige Mitarbeiter-Benefits) für eine bestimmte Firma lohnt. Die Logik dahinter:
+ob sich der Aufwand einer Ansprache zu einem der drei Belegschaftsversorgungs-Produkte -
+betriebliche Altersvorsorge (bAV), betriebliche Krankenversicherung (bKV) und
+Gruppenunfallversicherung - für eine bestimmte Firma lohnt. Diese drei Produkte
+unterscheiden sich stark in Verbreitung und Aussagekraft, deshalb bewertet dieser Skill
+sie **getrennt** statt in einem Topf:
 
-- **Wachsender Umsatz** bedeutet meist auch Budget, um in neue Benefits zu investieren.
+- **Wachsender Umsatz** bedeutet meist auch Budget, um in Benefits zu investieren.
 - **Wachsende Mitarbeiterzahl** bedeutet Personalgewinnungsdruck - ein Unternehmen, das
   aktiv einstellt, konkurriert um Talente und ist offener für neue Anreize.
-- **Noch keine (oder nur rudimentäre) Benefits** bedeutet: das Feld ist nicht schon von
-  einem Wettbewerber besetzt. Wirbt eine Firma in ihren Stellenanzeigen bereits aktiv mit
-  bAV, bKV o.ä., hat sie das Thema wahrscheinlich schon mit einem anderen Berater gelöst.
+- **Eine Branche mit spürbarem Fachkräftemangel** (z.B. IT, Pflege, Handwerk,
+  Ingenieurwesen, Bau, Logistik) erhöht die Dringlichkeit unabhängig von den reinen
+  Zahlen - solche Firmen brauchen Benefits als Wettbewerbsvorteil im Recruiting.
+- **Presseberichterstattung** liefert Kontext, den Kennzahlen allein nicht zeigen:
+  Expansion, Auszeichnungen und Rekrutierungsoffensiven sprechen für eine Ansprache;
+  Kurzarbeit, Stellenabbau oder Insolvenzsignale sprechen (zumindest fürs Timing) dagegen.
+- **Eine bereits vorhandene bAV ist kein Negativmerkmal.** Seit 2002 hat jeder
+  Arbeitnehmer einen gesetzlichen Anspruch auf Entgeltumwandlung - eine bAV in
+  irgendeiner Form existiert deshalb fast überall. Entscheidend ist ihr **Reifegrad**:
+  eine bAV, die nur das gesetzliche Minimum abdeckt, ist ein gutes Ausbau-Argument, keine
+  Absage. Bei bKV und Gruppenunfallversicherung ist das anders - beide sind nicht
+  gesetzlich vorgeschrieben und deutlich seltener vorhanden, hier ist "nicht gefunden"
+  tatsächlich ein starkes positives Signal.
 
-Ein guter Lead hat also idealerweise: Umsatz ↑, Mitarbeiterzahl ↑, Benefits ↓ (kaum vorhanden).
+Details zur genauen Bewertungslogik stehen in `references/bewertungskriterien.md`.
 
 ## Workflow
 
@@ -46,23 +58,39 @@ Offenlegungspflicht befreit sind), nutze Proxy-Indikatoren (z.B. Mitarbeiterzahl
 auf LinkedIn, Presseartikel über Expansion/Neubau/Stellenabbau, Bonitätshinweise) und
 mach transparent, dass es sich um Näherungswerte handelt.
 
-### 3. Stellenanzeigen auf Benefits prüfen
+### 3. Branche & Fachkräftesituation einordnen
+
+Ordne die Branche der Firma grob nach Fachkräfte-Dringlichkeit ein (hoch/mittel/gering)
+und belege das nach Möglichkeit mit einer Quelle (z.B. Presseartikel oder
+Branchenverband zum Fachkräftemangel in der Branche). Die Einordnungshilfe mit
+Beispielbranchen steht in `references/bewertungskriterien.md`.
+
+### 4. Stellenanzeigen prüfen - bAV, bKV und Unfallversicherung getrennt
 
 Suche aktuelle offene Stellen der Firma (Indeed, StepStone, LinkedIn Jobs, eigene
-Karriereseite) und prüfe, ob dort bereits mit Benefits im Bereich Belegschaftsversorgung
-geworben wird - insbesondere betriebliche Altersvorsorge/bAV, betriebliche
-Krankenversicherung/bKV, Gruppenunfallversicherung, aber auch generische Formulierungen
-wie "attraktive Zusatzleistungen". Schau dir dafür mehrere aktuelle Anzeigen an (idealerweise
-3-5), nicht nur eine - einzelne Anzeigen sind manchmal unvollständig gepflegt.
+Karriereseite) und prüfe für **jedes der drei Produkte einzeln**, was dort beworben wird -
+nicht als ein gemeinsames "Benefits vorhanden ja/nein". Schau dir dafür mehrere aktuelle
+Anzeigen an (idealerweise 3-5), nicht nur eine - einzelne Anzeigen sind manchmal
+unvollständig gepflegt. Achte bei bAV besonders auf Qualitätssignale (Zuschuss über das
+gesetzliche Minimum hinaus, genannter Anbieter) statt nur auf die reine Erwähnung - Details
+und Suchbegriffe je Produkt stehen in `references/datenquellen.md`.
 
-### 4. Bewerten
+### 5. Presse- und Öffentlichkeitsrecherche
 
-Bewerte die drei Kriterien (Umsatzentwicklung, Mitarbeiterentwicklung, Benefits-Sättigung)
-einzeln und leite daraus eine Gesamteinstufung ab. Die genaue Bewertungslogik mit
+Recherchiere aktiv die jüngste Berichterstattung (12-18 Monate) zur Firma - Wachstum,
+Auszeichnungen, Rekrutierungsoffensiven, aber auch Kurzarbeit, Stellenabbau oder
+Eigentümerwechsel. Das ist ein eigenständiger Bewertungsfaktor, kein reiner Lückenfüller
+für fehlende Bilanzzahlen. Suchmuster stehen in `references/datenquellen.md`.
+
+### 6. Bewerten
+
+Bewerte zunächst den produktunabhängigen Basis-Score (Umsatz, Mitarbeiterzahl, Branche,
+Presse), dann für jedes der drei Produkte einzeln den Reifegrad, und leite daraus drei
+getrennte Ampeln ab (bAV, bKV, Gruppenunfallversicherung). Die genaue Bewertungslogik mit
 Schwellenwerten und Beispielen steht in `references/bewertungskriterien.md` - lies diese
 Datei vor der Einstufung, damit die Bewertung nachvollziehbar und konsistent ist.
 
-### 5. Bericht erstellen
+### 7. Bericht erstellen
 
 Erstelle den Bericht **immer** als Markdown-Text direkt in deiner Antwort, nach der
 Struktur in `assets/analysebericht_template.md`. Erzeuge **zusätzlich** eine Word-Datei
@@ -115,4 +143,4 @@ eine falsche Sicherheit vortäuschende Zahl.
 - `assets/logo.png` - das Firmenlogo von Libanios Wiese & Partner, für jede .docx-Datei
   zu verwenden.
 - `scripts/render_report_docx.js` - wandelt den Markdown-Bericht automatisch in eine
-  gebrandete .docx-Datei um (Logo, Farben, Fußzeile) - siehe Schritt 5.
+  gebrandete .docx-Datei um (Logo, Farben, Fußzeile) - siehe Schritt 7.

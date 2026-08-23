@@ -34,28 +34,67 @@
 **Quelle:** [z.B. Bundesanzeiger, LinkedIn, North Data]
 **Einschätzung:** [Positiv / Neutral / Negativ / Unbekannt] – [1-2 Sätze Begründung]
 
-## 4. Benefits in Stellenanzeigen
+## 4. Branche & Fachkräftesituation
 
-| Anzeige (Position, Quelle, Datum) | Genannte Benefits im Bereich Belegschaftsversorgung |
+[1-3 Sätze: wie ist die Branche einzuordnen (hoch/mittel/gering bei Fachkräftemangel),
+was bedeutet das für die Dringlichkeit von Benefits als Recruiting-/Bindungsargument.
+Beleg nach Möglichkeit mit einer Quelle (z.B. Branchenverband, Presseartikel zu
+Fachkräftemangel in der Branche).]
+
+**Einschätzung Fachkräftesituation:** [Hoch / Mittel / Gering]
+
+## 5. Presse- und Öffentlichkeitssignale
+
+| Datum | Meldung | Einordnung |
+|---|---|---|
+| [Datum] | [Kurzbeschreibung, Quelle] | [Positiv / Neutral / Vorsicht] |
+| [...] | [...] | [...] |
+
+**Einschätzung Presse-Tonalität:** [Positiv / Neutral-gemischt / Vorsicht] – [1-2 Sätze
+Begründung, inkl. Hinweis auf Eigentümerwechsel/M&A falls relevant]
+
+## 6. Betriebliche Altersvorsorge (bAV)
+
+| Anzeige (Position, Quelle, Datum) | Was zur bAV genannt wird |
 |---|---|
-| [z.B. "Vertriebsmitarbeiter (m/w/d)", Indeed, [Datum]] | [z.B. "keine genannt" / "bAV erwähnt"] |
+| [...] | [z.B. "nur Stichwort, kein Zuschuss erkennbar" / "Zuschuss über gesetzliches Minimum hinaus"] |
 | [...] | [...] |
-| [...] | [...] |
 
-**Einschätzung Benefits-Sättigung:** [Gering/keine / Mittel / Hoch] – [1-2 Sätze Begründung]
+**Reifegrad:** [Kein Hinweis / Gesetzliches Minimum / Ausgebaut, Standard / Stark
+ausgebaut, aktiv beworben] – [1-2 Sätze Begründung]
 
-## 5. Gesamtfazit & Potenzial-Einstufung
+## 7. Betriebliche Krankenversicherung (bKV)
 
-**Einstufung: [🟢 Hoch / 🟡 Mittel / 🔴 Niedrig]**
+| Anzeige (Position, Quelle, Datum) | Was zur bKV genannt wird |
+|---|---|
+| [...] | [z.B. "keine Erwähnung" / "Gesundheitsbudget XY€ genannt"] |
 
-[3-5 Sätze Begründung, die die drei Kriterien zusammenführt und eine klare Aussage
-trifft, ob und warum sich eine Ansprache zum Thema Belegschaftsversorgung lohnt.]
+**Reifegrad:** [Nicht gefunden / Gefunden, Umfang unklar / Gefunden, umfangreich] – [1-2
+Sätze Begründung]
 
-**Empfehlung:** [z.B. "Ansprache empfehlenswert, Fokus auf bAV als noch ungenutztes
-Argument im Recruiting" / "Eher nachrangig, Thema wirkt bereits über Wettbewerber
-abgedeckt" / "Beobachten, Datenlage aktuell noch zu dünn für eine klare Empfehlung"]
+## 8. Gruppenunfallversicherung
 
-## 6. Offene Fragen / Datenlücken
+| Anzeige (Position, Quelle, Datum) | Was zur Unfallversicherung genannt wird |
+|---|---|
+| [...] | [z.B. "keine Erwähnung" / "explizit genannt"] |
+
+**Reifegrad:** [Nicht gefunden / Gefunden] – [1-2 Sätze Begründung]
+
+## 9. Gesamtfazit & Potenzial-Einstufung je Produkt
+
+**Basis-Score (Umsatz, Mitarbeiter, Branche, Presse zusammengeführt): [Gut / Mittel /
+Schwach]** – [2-3 Sätze Begründung]
+
+| Produkt | Einstufung | Empfehlung |
+|---|---|---|
+| Betriebliche Altersvorsorge (bAV) | [🟢 Hoch / 🟡 Mittel / 🔴 Niedrig] | [z.B. "Ausbaugespräch", "Benchmark", "eher nachrangig, aber Cross-Selling prüfen"] |
+| Betriebliche Krankenversicherung (bKV) | [🟢 Hoch / 🟡 Mittel / 🔴 Niedrig] | [...] |
+| Gruppenunfallversicherung | [🟢 Hoch / 🟡 Mittel / 🔴 Niedrig] | [...] |
+
+**Gesamtempfehlung:** [3-5 Sätze: welches Produkt zuerst ansprechen, welcher
+Gesprächsaufhänger passt, worauf beim Timing zu achten ist.]
+
+## 10. Offene Fragen / Datenlücken
 
 - [z.B. "Keine Umsatzzahlen öffentlich verfügbar (Kleinstkapitalgesellschaft) – im
   Erstgespräch erfragen"]
