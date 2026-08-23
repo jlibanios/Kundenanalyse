@@ -1,0 +1,37 @@
+{
+  "skill_name": "kundenpotenzial-belegschaftsversorgung",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Ich möchte wissen, ob sich für uns eine Ansprache bei der Häcker Küchen GmbH & Co. KG in Rödinghausen zum Thema Belegschaftsversorgung lohnen würde. Kannst du dir Umsatz- und Mitarbeiterentwicklung sowie deren aktuelle Stellenanzeigen anschauen und mir eine Einschätzung geben?",
+      "expected_output": "Strukturierter Analysebericht (Markdown im Chat + .docx-Datei) mit Firmendaten, Umsatz- und Mitarbeiterentwicklung der letzten Jahre, in Stellenanzeigen gefundenen Benefits, einer begründeten Ampel-Potenzialeinstufung und offenen Datenlücken. Häcker Küchen ist eine GmbH & Co. KG - ggf. eingeschränkte Umsatzoffenlegung, das sollte transparent gemacht werden statt Zahlen zu erfinden.",
+      "files": [],
+      "expectations": [
+        "Bericht enthält alle sechs vorgegebenen Abschnitte (Firmendaten, Umsatzentwicklung, Mitarbeiterentwicklung, Benefits in Stellenanzeigen, Gesamtfazit & Potenzial-Einstufung, Offene Fragen/Datenlücken)",
+        "Eine explizite Ampel-/Potenzial-Einstufung (hoch/mittel/niedrig bzw. grün/gelb/rot) wird genannt",
+        "Für Umsatzentwicklung wird entweder eine konkrete Zahl mit Quelle genannt oder explizit vermerkt, dass keine Umsatzzahlen verfügbar sind - keine erfundenen Werte",
+        "Für Mitarbeiterentwicklung wird entweder eine konkrete Zahl/Trend mit Quelle genannt oder explizit vermerkt, dass keine Daten verfügbar sind",
+        "Mindestens zwei unterschiedliche Stellenanzeigen bzw. Quellen für die Benefits-Recherche werden konkret benannt, nicht nur pauschal behauptet",
+        "Es wird eine klare Aussage getroffen, ob und welche Belegschaftsversorgungs-Benefits (bAV, bKV, Unfallversicherung o.ä.) in den Stellenanzeigen gefunden wurden - oder dass keine gefunden wurden",
+        "Quellen (URLs oder benannte Quellen wie North Data/Bundesanzeiger/LinkedIn) werden im Bericht oder einer Quellenliste angegeben",
+        "Eine .docx-Datei mit dem Bericht wurde erzeugt"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Können wir uns mal die DATAGROUP SE als möglichen Kunden für unser bAV/Benefits-Thema anschauen? Bitte einmal Umsatz- und Mitarbeiterentwicklung der letzten Jahre checken und schauen, was die aktuell an Benefits in ihren Stellenausschreibungen anbieten. Am Ende brauche ich eine kurze Einschätzung, ob sich eine Ansprache lohnt.",
+      "expected_output": "Strukturierter Analysebericht (Markdown im Chat + .docx-Datei) für die börsennotierte DATAGROUP SE mit gut verfügbaren Umsatz-/Mitarbeiterzahlen, gefundenen Benefits aus Stellenanzeigen (IT-Dienstleister werben häufig bereits mit bAV/Zusatzleistungen), begründeter Ampel-Einstufung und Empfehlung.",
+      "files": [],
+      "expectations": [
+        "Bericht enthält alle sechs vorgegebenen Abschnitte (Firmendaten, Umsatzentwicklung, Mitarbeiterentwicklung, Benefits in Stellenanzeigen, Gesamtfazit & Potenzial-Einstufung, Offene Fragen/Datenlücken)",
+        "Eine explizite Ampel-/Potenzial-Einstufung (hoch/mittel/niedrig bzw. grün/gelb/rot) wird genannt",
+        "Für Umsatzentwicklung wird eine konkrete Zahl mit Quelle genannt (DATAGROUP SE ist börsennotiert, Zahlen sollten auffindbar sein)",
+        "Für Mitarbeiterentwicklung wird eine konkrete Zahl/Trend mit Quelle genannt",
+        "Mindestens zwei unterschiedliche Stellenanzeigen bzw. Quellen für die Benefits-Recherche werden konkret benannt, nicht nur pauschal behauptet",
+        "Es wird eine klare Aussage getroffen, ob und welche Belegschaftsversorgungs-Benefits (bAV, bKV, Unfallversicherung o.ä.) in den Stellenanzeigen gefunden wurden - oder dass keine gefunden wurden",
+        "Quellen (URLs oder benannte Quellen wie Geschäftsbericht/Investor Relations/LinkedIn) werden im Bericht oder einer Quellenliste angegeben",
+        "Eine .docx-Datei mit dem Bericht wurde erzeugt"
+      ]
+    }
+  ]
+}
