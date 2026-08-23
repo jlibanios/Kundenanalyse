@@ -73,10 +73,21 @@ ihm eine schnelle Einschätzung im Chat reicht, kannst du auf die Word-Datei ver
 
 **Jede .docx-Datei muss im Corporate Design von Libanios Wiese & Partner gestaltet sein**
 - das Logo allein reicht nicht, alle Berichte sollen auf den ersten Blick als
-zusammengehörige, professionell gebrandete Dokumentserie erkennbar sein. Die konkreten
-Vorgaben (Logo-Datei, Farbwerte, Kopf-/Fußzeilen-Anforderungen) stehen in
-`references/corporate_design.md` - lies diese Datei vor der .docx-Erstellung und wende
-sie an, statt eine generische, unformatierte Word-Datei zu erzeugen.
+zusammengehörige, professionell gebrandete Dokumentserie erkennbar sein. Nutze dafür das
+mitgelieferte Skript `scripts/render_report_docx.js`, statt die Formatierung jedes Mal neu
+zu erfinden:
+
+```
+node scripts/render_report_docx.js <report.md> <report.docx>
+```
+
+Das Skript liest eine Markdown-Datei mit der Berichtsstruktur aus
+`assets/analysebericht_template.md` (Überschriften, Tabellen, Fließtext) und erzeugt daraus
+automatisch eine .docx-Datei mit Logo in der Kopfzeile, den Markenfarben auf Überschriften
+und Tabellenkopfzeilen sowie einer gebrandeten Fußzeile - schreib den Markdown-Bericht also
+zuerst in eine Datei, bevor du das Skript aufrufst. Details zu den verwendeten Farbwerten
+stehen in `references/corporate_design.md`, falls das Skript einmal nicht verfügbar ist
+oder händisch nachgebessert werden muss.
 
 Bei mehreren Firmen in einer Anfrage: erstelle für jede Firma einen eigenen Bericht
 (eigene Markdown-Sektion, eigene .docx-Datei), keine zusammengefasste Tabelle - die
@@ -103,3 +114,5 @@ eine falsche Sicherheit vortäuschende Zahl.
 - `assets/analysebericht_template.md` - die Zielstruktur des Analyseberichts.
 - `assets/logo.png` - das Firmenlogo von Libanios Wiese & Partner, für jede .docx-Datei
   zu verwenden.
+- `scripts/render_report_docx.js` - wandelt den Markdown-Bericht automatisch in eine
+  gebrandete .docx-Datei um (Logo, Farben, Fußzeile) - siehe Schritt 5.

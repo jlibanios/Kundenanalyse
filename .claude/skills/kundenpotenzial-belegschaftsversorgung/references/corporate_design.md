@@ -45,8 +45,12 @@ Jeder mit diesem Skill erzeugte Analysebericht als Word-Datei muss:
 
 ## Umsetzung
 
-Nutze für die .docx-Erstellung den docx-Skill (oder ein gleichwertiges Werkzeug) und gib
-ihm diese Vorgaben - Logo-Pfad, die beiden Hex-Werte, Kopf-/Fußzeilen-Anforderungen -
-explizit mit, statt sie zu erfinden oder wegzulassen. Die Markdown-Version im Chat
-braucht keine Farbformatierung (Chat-Markdown unterstützt das ohnehin nicht), aber die
-Abschnittsreihenfolge und -struktur sollte trotzdem identisch zur .docx-Version sein.
+Der einfachste und zuverlässigste Weg ist `scripts/render_report_docx.js` (siehe SKILL.md
+Schritt 5) - das Skript wendet Logo, Farben und Fußzeile automatisch auf einen
+Markdown-Bericht an. Nur falls das Skript aus irgendeinem Grund nicht läuft (z.B. weil das
+npm-Paket `docx` fehlt und nicht nachinstalliert werden kann), erzeuge die .docx-Datei
+händisch (z.B. über den docx-Skill) und gib ihr dabei genau diese Vorgaben - Logo-Pfad,
+die beiden Hex-Werte, Kopf-/Fußzeilen-Anforderungen - explizit mit, statt sie zu erfinden
+oder wegzulassen. Die Markdown-Version im Chat braucht keine Farbformatierung
+(Chat-Markdown unterstützt das ohnehin nicht), aber die Abschnittsreihenfolge und
+-struktur sollte trotzdem identisch zur .docx-Version sein.
