@@ -71,6 +71,13 @@ dem Nutzer als Datei - das ist der Normalfall, weil der Bericht oft für eine CR
 oder Weiterleitung an Kollegen gedacht ist. Nur wenn der Nutzer ausdrücklich sagt, dass
 ihm eine schnelle Einschätzung im Chat reicht, kannst du auf die Word-Datei verzichten.
 
+**Jede .docx-Datei muss im Corporate Design von Libanios Wiese & Partner gestaltet sein**
+- das Logo allein reicht nicht, alle Berichte sollen auf den ersten Blick als
+zusammengehörige, professionell gebrandete Dokumentserie erkennbar sein. Die konkreten
+Vorgaben (Logo-Datei, Farbwerte, Kopf-/Fußzeilen-Anforderungen) stehen in
+`references/corporate_design.md` - lies diese Datei vor der .docx-Erstellung und wende
+sie an, statt eine generische, unformatierte Word-Datei zu erzeugen.
+
 Bei mehreren Firmen in einer Anfrage: erstelle für jede Firma einen eigenen Bericht
 (eigene Markdown-Sektion, eigene .docx-Datei), keine zusammengefasste Tabelle - die
 Firmen sind meist nicht direkt vergleichbar und die Datenlage unterscheidet sich.
@@ -91,4 +98,8 @@ eine falsche Sicherheit vortäuschende Zahl.
   für deutsche Unternehmen recherchiert, inkl. Suchstrategien und Fallstricken.
 - `references/bewertungskriterien.md` - die genaue Bewertungslogik (Schwellenwerte,
   Ampel-Zuordnung, Umgang mit lückenhaften Daten).
+- `references/corporate_design.md` - Logo, Markenfarben und Pflichtvorgaben für jede
+  .docx-Ausgabe.
 - `assets/analysebericht_template.md` - die Zielstruktur des Analyseberichts.
+- `assets/logo.png` - das Firmenlogo von Libanios Wiese & Partner, für jede .docx-Datei
+  zu verwenden.
