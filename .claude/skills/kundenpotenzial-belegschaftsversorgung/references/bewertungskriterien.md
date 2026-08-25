@@ -228,20 +228,40 @@ Prüfe Stellenanzeigen auf Begriffe wie "Schichtarbeit", "2-/3-Schicht-System",
   bleibt relevant, aber das Argument ist eher generisches Fürsorge-/Employer-Branding-
   Argument als konkretes Risikoargument.
 
-### Anteil Geringverdiener (bAV: +5)
+### Gehaltsstruktur: Geringverdiener- und Hochlohn-Anteil (bAV: +5 je Ausprägung, bKV: +5 bei Hochlohn)
 
-Der Staat fördert Arbeitgeberzuschüsse zur bAV für Geringverdiener zusätzlich (§100 EStG,
-BAV-Förderbetrag) - das ist ein konkretes, sachliches Verkaufsargument, wenn ein
-nennenswerter Teil der Belegschaft darunter fällt. Die genaue Einkommensgrenze ändert sich
-gelegentlich - prüfe bei Bedarf den aktuell gültigen Wert, statt eine veraltete Zahl aus
-dem Gedächtnis zu übernehmen.
+Nicht nur ein hoher Geringverdiener-Anteil ist ein Argument - ein hoher Anteil gut
+bezahlter Fachkräfte/Führungspositionen ist es über einen anderen Mechanismus genauso.
+Beide Enden der Gehaltsskala können unabhängig voneinander zutreffen (z.B. bei einer
+Firma mit vielen Produktionsstellen UND mehreren spezialisierten Ingenieurspositionen) -
+prüfe beide, statt nur eines der beiden Signale zu suchen.
 
-- Schätze den Anteil über die in Stellenanzeigen/Tarif-Gehaltstabellen erkennbaren
-  Lohnniveaus der ausgeschriebenen Positionen (z.B. PTA-, Produktions-, Lager- oder
-  Einstiegsgehälter). Ist ein spürbarer Anteil der Belegschaft im Geringverdiener-Bereich
-  erkennbar: +5 Punkte auf den bAV-Score und den Förderbetrag im Bericht als konkretes
-  Argument nennen.
-- Ohne belastbaren Hinweis: keine Punkte, nicht spekulieren.
+**Hoher Geringverdiener-Anteil (bAV: +5):** Der Staat fördert Arbeitgeberzuschüsse zur
+bAV für Geringverdiener zusätzlich (§100 EStG, BAV-Förderbetrag) - ein konkretes,
+sachliches Verkaufsargument. Die genaue Einkommensgrenze ändert sich gelegentlich - prüfe
+bei Bedarf den aktuell gültigen Wert, statt eine veraltete Zahl aus dem Gedächtnis zu
+übernehmen.
+
+**Hoher Anteil gut bezahlter Fachkräfte/Führungspositionen (bAV: +5, bKV: +5):**
+Gleich mehrere Gründe sprechen dafür, gut bezahlte Belegschaften genauso als starkes
+Signal zu werten, nicht nur als neutral:
+- **Bindung schwer ersetzbarer Fachkräfte:** Spezialist:innen, Ingenieur:innen,
+  Führungskräfte sind teuer zu ersetzen - Arbeitgeber setzen hier eher auf hochwertige
+  Benefits als Retention-Instrument.
+- **Höheres Prämien-/Deal-Volumen pro Kopf**, da sich sowohl bAV-Beiträge als auch
+  bKV-Leistungen häufig am Einkommen orientieren.
+- **Steuerliche Attraktivität der Entgeltumwandlung** steigt mit dem persönlichen
+  Grenzsteuersatz - bei gut bezahlten Positionen ist das Argument "bAV spart Steuern und
+  Sozialabgaben" besonders schlagkräftig.
+- Executive-taugliche bKV-Pakete (Chefarztbehandlung, Einzelzimmer, Zahnzusatzleistungen)
+  sind ein klassisches Differenzierungsmerkmal beim Werben um Führungskräfte/Spezialisten.
+
+Schätze beide Ausprägungen über die in Stellenanzeigen/Tarif-Gehaltstabellen erkennbaren
+Lohnniveaus der ausgeschriebenen Positionen (z.B. PTA-, Produktions-, Lager- oder
+Einstiegsgehälter für Geringverdiener; Ingenieurs-, IT-Spezialisten- oder
+Führungspositionen mit übertariflicher/deutlich überdurchschnittlicher Vergütung für die
+Hochlohn-Seite). Beide Signale können gleichzeitig zutreffen und addieren sich. Ohne
+belastbaren Hinweis auf eine der beiden Ausprägungen: keine Punkte, nicht spekulieren.
 
 ## Schritt 3: Punktzahl → Ampel je Produkt
 

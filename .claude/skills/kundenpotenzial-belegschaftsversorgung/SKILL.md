@@ -31,13 +31,17 @@ sie **getrennt** statt in einem Topf:
   Absage. Bei bKV und Gruppenunfallversicherung ist das anders - beide sind nicht
   gesetzlich vorgeschrieben und deutlich seltener vorhanden, hier ist "nicht gefunden"
   tatsächlich ein starkes positives Signal.
-- **Altersstruktur, Tarifbindung/Betriebsrat, Schichtarbeit und Anteil Geringverdiener**
+- **Altersstruktur, Tarifbindung/Betriebsrat, Schichtarbeit und Gehaltsstruktur**
   schärfen die Einordnung zusätzlich: eine alte Belegschaft erhöht die bAV-Dringlichkeit,
   eine erkennbare Tarifbindung kann eine bereits über das Minimum hinausgehende bAV
   bedeuten (auch ohne Erwähnung in Stellenanzeigen), Schichtarbeit/körperliche Belastung
-  ist ein starkes Argument für die Gruppenunfallversicherung, und ein hoher
-  Geringverdiener-Anteil macht den staatlichen bAV-Förderbetrag (§100 EStG) zu einem
-  konkreten Verkaufsargument.
+  ist ein starkes Argument für die Gruppenunfallversicherung. Bei der Gehaltsstruktur
+  zählen **beide Enden der Skala**: ein hoher Geringverdiener-Anteil macht den
+  staatlichen bAV-Förderbetrag (§100 EStG) zu einem konkreten Verkaufsargument, und ein
+  hoher Anteil gut bezahlter Fachkräfte/Führungspositionen ist genauso ein starkes
+  Argument - höheres Prämienvolumen, stärkeres Bindungsinteresse an schwer ersetzbaren
+  Fachkräften, und die Entgeltumwandlung ist bei hohem Grenzsteuersatz steuerlich
+  besonders attraktiv.
 - **Entscheidungsstruktur und Veränderungssignale** fließen zusätzlich in den Basis-Score
   ein: inhabergeführte Firmen entscheiden meist schneller als Konzern-Töchter mit
   zentraler HR-Politik oder frisch von Private Equity übernommene Unternehmen; bestätigte
@@ -84,8 +88,10 @@ mach transparent, dass es sich um Näherungswerte handelt.
 Ordne die Branche der Firma grob nach Fachkräfte-Dringlichkeit ein (hoch/mittel/gering)
 und belege das nach Möglichkeit mit einer Quelle (z.B. Presseartikel oder
 Branchenverband zum Fachkräftemangel in der Branche). Prüfe außerdem, soweit auffindbar,
-die **Altersstruktur der Belegschaft**, **Tarifbindung/Betriebsrat** und den **Anteil
-Geringverdiener** - diese schärfen später speziell die bAV-Einordnung. Kläre zusätzlich
+die **Altersstruktur der Belegschaft**, **Tarifbindung/Betriebsrat** und die
+**Gehaltsstruktur** (sowohl Geringverdiener- als auch Hochlohn-/Fachkräfte-Anteil, beide
+zählen als positives Signal) - diese schärfen später speziell die bAV- bzw.
+bKV-Einordnung. Kläre zusätzlich
 die **Entscheidungsstruktur** (inhabergeführt, Konzern-Tochter, kürzlich von
 Private Equity übernommen o.ä.) - das fließt in den Basis-Score ein. Die
 Einordnungshilfen mit Beispielbranchen und den Kontextfaktoren stehen in

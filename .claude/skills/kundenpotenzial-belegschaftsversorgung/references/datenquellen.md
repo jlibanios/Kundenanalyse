@@ -95,12 +95,20 @@ Tarifvertrag der Metall- und Elektroindustrie").
 Zusammenarbeit mit unserem Betriebsrat"), in Kununu-Bewertungen, oder in
 Betriebsratswahl-Meldungen der Lokalpresse.
 
-**Anteil Geringverdiener (relevant für den bAV-Förderbetrag nach §100 EStG):** Direkt
+**Gehaltsstruktur - beide Enden der Skala prüfen (siehe `bewertungskriterien.md`):** Direkt
 recherchierbar ist das selten - schätze stattdessen über das erkennbare Lohnniveau der
 ausgeschriebenen Positionen (z.B. Tarif-Gehaltstabellen für den Beruf/die Branche,
-Gehaltsangaben in Stellenanzeigen, Portale wie kununu/glassdoor mit Gehaltsangaben). Viele
-Produktions-, Lager- oder Einstiegspositionen liegen erfahrungsgemäß in diesem Bereich -
-ohne konkreten Hinweis nicht spekulieren, sondern als offene Frage kennzeichnen.
+Gehaltsangaben in Stellenanzeigen, Portale wie kununu/glassdoor mit Gehaltsangaben). Prüfe
+gezielt zwei gegensätzliche Signale, die beide für Potenzial sprechen:
+- **Geringverdiener-Anteil** (relevant für den bAV-Förderbetrag nach §100 EStG): viele
+  Produktions-, Lager- oder Einstiegspositionen liegen erfahrungsgemäß in diesem Bereich.
+- **Hochlohn-/Fachkräfte-Anteil** (relevant für Bindungsargument, Prämienvolumen und
+  steuerliche Attraktivität der Entgeltumwandlung): erkennbar an ausgeschriebenen
+  Ingenieurs-, IT-Spezialisten-, Führungs- oder anderen deutlich übertariflich vergüteten
+  Positionen.
+
+Ohne konkreten Hinweis auf eine der beiden Ausprägungen nicht spekulieren, sondern als
+offene Frage kennzeichnen.
 
 ## Entscheidungsstruktur & Veränderungssignale
 

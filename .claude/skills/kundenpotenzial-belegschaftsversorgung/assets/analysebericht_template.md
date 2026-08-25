@@ -77,10 +77,12 @@ unbekannt" / "überdurchschnittlich alte Belegschaft laut Kununu, erhöht bAV-Dr
 / "tarifgebunden (IG Metall), bAV vermutlich bereits über gesetzliches Minimum hinaus -
 Reifegrad-Einschätzung mit Vorbehalt"]
 
-**Anteil Geringverdiener (Kontextfaktor, bAV-Förderbetrag §100 EStG):** [1-2 Sätze - z.B.
-"keine Hinweise auf nennenswerten Geringverdiener-Anteil" / "mehrere ausgeschriebene
-Positionen im Geringverdiener-Bereich laut Tarif-Gehaltstabelle - Förderbetrag als
-Verkaufsargument nennen"]
+**Gehaltsstruktur (Kontextfaktor):** [1-2 Sätze zu beiden Ausprägungen - z.B. "keine
+Hinweise auf nennenswerten Geringverdiener- oder Hochlohn-Anteil" / "mehrere
+ausgeschriebene Positionen im Geringverdiener-Bereich laut Tarif-Gehaltstabelle -
+Förderbetrag nach §100 EStG als Verkaufsargument nennen" / "mehrere spezialisierte
+Ingenieurspositionen deutlich übertariflich ausgeschrieben - starkes Bindungs- und
+Steueroptimierungsargument, wirkt sich auch auf bKV aus (siehe Abschnitt 7)"]
 
 ## 7. Betriebliche Krankenversicherung (bKV)
 
@@ -90,6 +92,11 @@ Verkaufsargument nennen"]
 
 **Reifegrad:** [Nicht gefunden / Gefunden, Umfang unklar / Gefunden, umfangreich] – [1-2
 Sätze Begründung]
+
+**Hochlohn-/Fachkräfte-Anteil (Kontextfaktor, siehe Abschnitt 6):** [1-2 Sätze - z.B.
+"kein nennenswerter Hochlohn-Anteil erkennbar" / "hoher Anteil an Führungs-/
+Spezialistenpositionen - Executive-taugliche bKV als Differenzierungsargument im
+Recruiting"]
 
 ## 8. Gruppenunfallversicherung
 
