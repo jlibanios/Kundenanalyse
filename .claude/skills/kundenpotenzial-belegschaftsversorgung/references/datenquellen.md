@@ -11,6 +11,7 @@
 | LinkedIn-Unternehmensseite | Mitarbeiterzahl, teils "X % Wachstum in den letzten 2 Jahren"-Anzeige, Stellenanzeigen | Guter Proxy für Mitarbeiterentwicklung, besonders wenn keine Bilanzdaten vorliegen. Zahlen sind Näherungswerte (nicht jeder Mitarbeitende pflegt LinkedIn). |
 | Kununu / Glassdoor | Arbeitgeberbewertungen, manchmal Erwähnung konkreter Benefits oder Wachstumskommentare | Ergänzend, nicht als alleinige Quelle - Bewertungen sind subjektiv und oft nicht aktuell. |
 | Creditreform / Bonitätsauskünfte, sofern zugänglich | Bonität, teils grobe Umsatzklassen | Falls verfügbar; oft kostenpflichtig, dann nur nutzen wenn bereits Zugriff besteht. |
+| Nachhaltigkeits-/CSR-Bericht (auf der Unternehmenswebsite, Suche nach "Nachhaltigkeit"/"CSR"/"ESG-Bericht") | Bei größeren Mittelständlern oft überraschend ergiebig: Mitarbeiterzahl, Altersstruktur, Betriebsrat, teils auch Tarifbindung und Fluktuation | Wird häufig übersehen, ist aber oft die einzige Quelle für Altersstruktur/Betriebsrat - lohnt sich gezielt zu prüfen, auch bei Firmen ohne Kapitalgesellschafts-Publizitätspflicht. |
 
 **Wenn gar keine belastbaren Zahlen auffindbar sind:** nicht raten. Stattdessen so viele
 Proxy-Signale wie möglich sammeln (Mitarbeiterzahl-Trend, Stellenanzeigen-Volumen über
@@ -93,6 +94,45 @@ Tarifvertrag der Metall- und Elektroindustrie").
 **Betriebsrat:** Erwähnungen auf der Karriereseite, in Stellenanzeigen ("in
 Zusammenarbeit mit unserem Betriebsrat"), in Kununu-Bewertungen, oder in
 Betriebsratswahl-Meldungen der Lokalpresse.
+
+**Anteil Geringverdiener (relevant für den bAV-Förderbetrag nach §100 EStG):** Direkt
+recherchierbar ist das selten - schätze stattdessen über das erkennbare Lohnniveau der
+ausgeschriebenen Positionen (z.B. Tarif-Gehaltstabellen für den Beruf/die Branche,
+Gehaltsangaben in Stellenanzeigen, Portale wie kununu/glassdoor mit Gehaltsangaben). Viele
+Produktions-, Lager- oder Einstiegspositionen liegen erfahrungsgemäß in diesem Bereich -
+ohne konkreten Hinweis nicht spekulieren, sondern als offene Frage kennzeichnen.
+
+## Entscheidungsstruktur & Veränderungssignale
+
+Diese beiden Faktoren beeinflussen den Basis-Score (siehe `bewertungskriterien.md`) und
+lassen sich meist mit denselben Presse-/Handelsregister-Recherchen abdecken, die du
+ohnehin schon durchführst.
+
+**Entscheidungsstruktur:** Handelsregister/North Data (Gesellschafter, Konzernzugehörigkeit),
+Impressum ("Teil der ... Gruppe"), Pressemeldungen zu Übernahmen/Investoren-Einstieg.
+Suchmuster: `"[Firmenname]" Übernahme`, `"[Firmenname]" Investor`, `"[Firmenname]"
+Muttergesellschaft`, `"[Firmenname]" Private Equity`. Wichtig ist vor allem, *wie lange*
+eine Übernahme zurückliegt - kurz zurückliegende Übernahmen (< 2 Jahre) bedeuten meist noch
+laufende Post-Merger-Neuordnung.
+
+**Veränderungssignale:** Presse-Suchmuster wie bei "Presse und Öffentlichkeitsarbeit"
+unten, ergänzt um: `"[Firmenname]" neue Geschäftsführung`, `"[Firmenname]" neuer
+Personalleiter/Head of HR`, `"[Firmenname]" eröffnet Standort`, `"[Firmenname]" führt ein`
+(z.B. neue HR-Software). LinkedIn-Postings der Firma oder von neu gestarteten
+Mitarbeitenden ("Neu im Team: ...") sind hier oft ergiebiger als klassische Presse.
+
+## Ansprechbarkeit: Kontaktperson finden
+
+Kein Bewertungskriterium für das Potenzial selbst, aber ein praktischer Hinweis für den
+nächsten Schritt (siehe `bewertungskriterien.md`). Prüfe:
+
+- **LinkedIn:** Suche nach "[Firmenname] HR" oder "[Firmenname] Personalleitung" -
+  Mitarbeiterprofile mit Titeln wie "Head of HR", "Personalleiter:in",
+  "Geschäftsführung" sind oft direkt auffindbar.
+- **Impressum/Kontaktseite:** Kleinere Firmen nennen die Geschäftsführung oft direkt im
+  Impressum.
+- **Karriereseite:** Manche Firmen nennen eine namentliche Recruiting-/HR-Kontaktperson
+  für Bewerbungen - das ist auch für eine B2B-Ansprache oft der richtige erste Kontakt.
 
 ## Presse und Öffentlichkeitsarbeit
 

@@ -12,6 +12,9 @@
 | Website | [URL] |
 | Tarifbindung | [z.B. "Metall- und Elektroindustrie" / "keine erkennbar" / "unbekannt"] |
 | Betriebsrat | [Vorhanden / Nicht erkennbar / Unbekannt] |
+| Entscheidungsstruktur | [Inhabergeführt / Konzern-Tochter, dezentrale HR / Konzern-Tochter, zentrale HR / Kürzlich von PE/Investor übernommen / Unbekannt] |
+| Größenklasse (Deal-Size) | [Klein < 20 MA / Mittel 20-100 MA / Groß > 100 MA / Unbekannt] |
+| Ansprechbarkeit | [Konkreter Kontakt auffindbar (Name, Funktion) / Nur allgemeine Kontaktdaten / Kein Kontakt auffindbar] |
 | Quelle | [z.B. Handelsregister, Firmenwebsite] |
 
 ## 2. Umsatzentwicklung
@@ -22,7 +25,7 @@
 | [Jahr] | [Wert] | [%] |
 | [Jahr] | [Wert] | [%] |
 
-**Quelle:** [z.B. Bundesanzeiger, North Data, Pressemitteilung]
+**Quelle:** [z.B. Bundesanzeiger, North Data, Nachhaltigkeitsbericht, Pressemitteilung]
 **Einschätzung:** [Positiv / Neutral / Negativ / Unbekannt] – [1-2 Sätze Begründung]
 
 ## 3. Mitarbeiterentwicklung
@@ -33,7 +36,7 @@
 | [Jahr] | [Wert] |
 | [Jahr] | [Wert] |
 
-**Quelle:** [z.B. Bundesanzeiger, LinkedIn, North Data]
+**Quelle:** [z.B. Bundesanzeiger, LinkedIn, North Data, Nachhaltigkeitsbericht]
 **Einschätzung:** [Positiv / Neutral / Negativ / Unbekannt] – [1-2 Sätze Begründung]
 
 ## 4. Branche & Fachkräftesituation
@@ -45,7 +48,7 @@ Fachkräftemangel in der Branche).]
 
 **Einschätzung Fachkräftesituation:** [Hoch / Mittel / Gering]
 
-## 5. Presse- und Öffentlichkeitssignale
+## 5. Presse-, Öffentlichkeits- und Veränderungssignale
 
 | Datum | Meldung | Einordnung |
 |---|---|---|
@@ -54,6 +57,10 @@ Fachkräftemangel in der Branche).]
 
 **Einschätzung Presse-Tonalität:** [Positiv / Neutral-gemischt / Vorsicht] – [1-2 Sätze
 Begründung, inkl. Hinweis auf Eigentümerwechsel/M&A falls relevant]
+
+**Veränderungssignale:** [Liste bestätigter Ereignisse der letzten 12 Monate, z.B. "neue
+Personalleitung (Quelle)", "Zukauf der Firma X (Quelle)", "neuer Standort in ... (Quelle)"
+- oder "keine bestätigten Veränderungssignale gefunden"]
 
 ## 6. Betriebliche Altersvorsorge (bAV)
 
@@ -69,6 +76,11 @@ ausgebaut, aktiv beworben] – [1-2 Sätze Begründung]
 unbekannt" / "überdurchschnittlich alte Belegschaft laut Kununu, erhöht bAV-Dringlichkeit"
 / "tarifgebunden (IG Metall), bAV vermutlich bereits über gesetzliches Minimum hinaus -
 Reifegrad-Einschätzung mit Vorbehalt"]
+
+**Anteil Geringverdiener (Kontextfaktor, bAV-Förderbetrag §100 EStG):** [1-2 Sätze - z.B.
+"keine Hinweise auf nennenswerten Geringverdiener-Anteil" / "mehrere ausgeschriebene
+Positionen im Geringverdiener-Bereich laut Tarif-Gehaltstabelle - Förderbetrag als
+Verkaufsargument nennen"]
 
 ## 7. Betriebliche Krankenversicherung (bKV)
 
@@ -93,17 +105,20 @@ Dringlichkeit" / "überwiegend Bürotätigkeiten, kein erhöhtes Unfallrisiko er
 
 ## 9. Gesamtfazit & Potenzial-Einstufung je Produkt
 
-**Basis-Score (Umsatz, Mitarbeiter, Branche, Presse zusammengeführt): [Gut / Mittel /
-Schwach]** – [2-3 Sätze Begründung]
+**Basis-Score: [Punktzahl] Punkte → [Gut / Mittel / Schwach]**
+[Kurze Aufschlüsselung, z.B. "Umsatz +15, Mitarbeiter +15, Branche +15, Presse +10,
+Entscheidungsstruktur +5, Veränderungssignale 0 = 60 Punkte"] – [1-2 Sätze Begründung]
 
-| Produkt | Einstufung | Empfehlung |
-|---|---|---|
-| Betriebliche Altersvorsorge (bAV) | [🟢 Hoch / 🟡 Mittel / 🔴 Niedrig] | [z.B. "Ausbaugespräch", "Benchmark", "eher nachrangig, aber Cross-Selling prüfen"] |
-| Betriebliche Krankenversicherung (bKV) | [🟢 Hoch / 🟡 Mittel / 🔴 Niedrig] | [...] |
-| Gruppenunfallversicherung | [🟢 Hoch / 🟡 Mittel / 🔴 Niedrig] | [...] |
+| Produkt | Punkte | Ampel | Empfehlung |
+|---|---|---|---|
+| Betriebliche Altersvorsorge (bAV) | [Zahl] | [🟢 Hoch / 🟡 Mittel / 🔴 Niedrig] | [z.B. "Ausbaugespräch", "Benchmark", "eher nachrangig, aber Cross-Selling prüfen"] |
+| Betriebliche Krankenversicherung (bKV) | [Zahl] | [🟢 Hoch / 🟡 Mittel / 🔴 Niedrig] | [...] |
+| Gruppenunfallversicherung | [Zahl] | [🟢 Hoch / 🟡 Mittel / 🔴 Niedrig] | [...] |
 
 **Gesamtempfehlung:** [3-5 Sätze: welches Produkt zuerst ansprechen, welcher
-Gesprächsaufhänger passt, worauf beim Timing zu achten ist.]
+Gesprächsaufhänger passt, worauf beim Timing zu achten ist. Bei mehreren gleich
+eingestuften Kandidaten: Größenklasse/Ansprechbarkeit aus Abschnitt 1 zur Priorisierung
+heranziehen.]
 
 ## 10. Offene Fragen / Datenlücken
 

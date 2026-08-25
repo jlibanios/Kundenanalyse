@@ -7,30 +7,58 @@ unterschiedliche Verbreitung und Marktreife, und ein Vertriebsmitarbeiter profit
 zu wissen: "bei dieser Firma lohnt sich bKV sofort, bAV eher als Optimierungsgespräch in
 sechs Monaten."
 
-Die Bewertung läuft in zwei Schritten ab: zuerst ein produktunabhängiger
-**Basis-Score** (wie gut passt die Firma grundsätzlich - Budget, Dringlichkeit, Momentum),
+Die Bewertung läuft in zwei Schritten ab: zuerst ein produktunabhängiger **Basis-Score**
+(wie gut passt die Firma grundsätzlich - Budget, Dringlichkeit, Momentum, Entscheidungsfähigkeit),
 dann pro Produkt ein **Reifegrad** (wie weit ist das Thema bei dieser Firma schon gelöst).
-Beides zusammen ergibt die drei Ampeln.
+Beides wird als **Punktzahl** ausgedrückt, damit die Einstufung nachvollziehbar bleibt und
+sich mehrere Firmen objektiv vergleichen lassen (wichtig, wenn mehrere Kandidaten
+gegeneinander abgewogen werden, z.B. in der Wochenroutine).
+
+## Punkte-Scoring: so wird die Ampel berechnet
+
+```
+Produkt-Score = Basis-Score-Punkte (Summe aus Schritt 1)
+              + Produkt-Reifegrad-Punkte (aus Schritt 2, für genau dieses Produkt)
+              + zutreffende Kontextfaktor-Punkte (aus dem Kontextfaktoren-Abschnitt, für genau dieses Produkt)
+```
+
+Schwellen für die Ampel:
+
+| Produkt-Score | Ampel |
+|---|---|
+| ≥ 50 | 🟢 Hoch |
+| 15 bis 49 | 🟡 Mittel |
+| < 15 | 🔴 Niedrig |
+
+**Wichtige Ausnahme:** Ist der Basis-Score als "Schwach" eingeordnet (siehe unten), wird die
+Ampel unabhängig von der errechneten Punktzahl auf 🔴 Niedrig gedeckelt - eine Firma in
+wirtschaftlicher Schieflage ist aktuell kein guter Ansprache-Zeitpunkt, selbst wenn z.B. bKV
+noch komplett fehlt. Nenne diesen Fall im Bericht explizit als "aktuell ungünstiges Timing,
+Thema bleibt aber relevant".
+
+Weise im Bericht sowohl die **Punktzahl** als auch die **Ampel** aus (z.B. "bAV: 62 Punkte →
+🟢 Hoch") - die Zahl macht nachvollziehbar, wie knapp oder eindeutig die Einstufung ausfällt,
+und erlaubt den Vergleich mehrerer Firmen.
 
 ## Schritt 1: Basis-Score (gilt für alle drei Produkte gleich)
 
 ### Umsatzentwicklung
 
-| Einstufung | Kriterium |
-|---|---|
-| **Positiv** | Umsatz ist in den letzten 2-3 verfügbaren Geschäftsjahren durchgehend gewachsen (Richtwert > ca. 5 % p.a., ein durchgehender klarer Aufwärtstrend zählt auch bei geringeren Raten als positiv). |
-| **Neutral** | Umsatz ist weitgehend stabil (Schwankung grob ±2-3 % pro Jahr) oder die Datenlage lässt nur eine grobe Trendaussage zu. |
-| **Negativ** | Umsatz ist in mindestens einem der letzten 2 Jahre gesunken oder der Mehrjahrestrend ist klar rückläufig. |
-| **Unbekannt** | Keine belastbare Quelle und keine sinnvollen Proxy-Indikatoren vorhanden - nicht raten, als offene Frage kennzeichnen. |
+| Einstufung | Punkte | Kriterium |
+|---|---|---|
+| **Positiv** | +15 | Umsatz ist in den letzten 2-3 verfügbaren Geschäftsjahren durchgehend gewachsen (Richtwert > ca. 5 % p.a., ein durchgehender klarer Aufwärtstrend zählt auch bei geringeren Raten als positiv). |
+| **Neutral** | +5 | Umsatz ist weitgehend stabil (Schwankung grob ±2-3 % pro Jahr) oder die Datenlage lässt nur eine grobe Trendaussage zu. |
+| **Negativ** | −15 | Umsatz ist in mindestens einem der letzten 2 Jahre gesunken oder der Mehrjahrestrend ist klar rückläufig. |
+| **Unbekannt** | 0 | Keine belastbare Quelle und keine sinnvollen Proxy-Indikatoren vorhanden - nicht raten, als offene Frage kennzeichnen. |
 
 ### Mitarbeiterentwicklung
 
-| Einstufung | Kriterium |
-|---|---|
-| **Positiv** | Mitarbeiterzahl ist über die letzten 2-3 Jahre gewachsen. |
-| **Neutral** | Mitarbeiterzahl ist weitgehend stabil (± wenige Prozent). |
-| **Negativ** | Mitarbeiterzahl ist gesunken, oder es gibt konkrete Hinweise auf Stellenabbau/Kurzarbeit/Insolvenzverfahren. |
-| **Unbekannt** | Keine Quelle auffindbar. |
+| Einstufung | Punkte | Kriterium |
+|---|---|---|
+| **Positiv** | +15 | Mitarbeiterzahl ist über die letzten 2-3 Jahre gewachsen. |
+| **Neutral** | +5 | Mitarbeiterzahl ist weitgehend stabil (± wenige Prozent). |
+| **Negativ** | −15 | Mitarbeiterzahl ist gesunken, oder es gibt konkrete Hinweise auf Stellenabbau/Kurzarbeit/Insolvenzverfahren. |
+| **Unbekannt** | 0 | Keine Quelle auffindbar. |
 
 ### Branche & Fachkräftesituation
 
@@ -39,43 +67,66 @@ Recruiting- und Bindungsinstrument - unabhängig von Umsatz und Mitarbeiterzahl.
 Branche der Firma grob ein (Web-Recherche zu "Fachkräftemangel [Branche]" hilft bei
 Grenzfällen und liefert gleichzeitig einen guten Beleg für den Bericht):
 
-| Fachkräftesituation | Typische Branchen (Beispiele, keine abschließende Liste) |
-|---|---|
-| **Hoch** | IT/Software, Ingenieurwesen & MINT, Pflege & Gesundheitswesen, Handwerk (Elektro, SHK, Bau), Bauwirtschaft, Logistik & Fahrpersonal, Gastronomie & Hotellerie, Erziehung & Pädagogik, Handwerksnahe Produktion mit Fachkräfteanteil |
-| **Mittel** | Klassische Industrie/Produktion mit gemischtem Qualifikationsniveau, Finanzdienstleistung, klassische Verwaltungsberufe |
-| **Gering** | Branchen mit strukturellem Personalüberhang, sehr geringer Wettbewerb um Arbeitskräfte, stark schrumpfende Sektoren |
-
-Ein Unternehmen mit hoher Fachkräfte-Konkurrenz ist tendenziell eher bereit, in Benefits
-zu investieren, selbst wenn Umsatz/Mitarbeiterzahl gerade nur neutral sind - notiere das
-im Bericht als eigenständiges Argument für die Ansprache, nicht nur als Fußnote.
+| Fachkräftesituation | Punkte | Typische Branchen (Beispiele, keine abschließende Liste) |
+|---|---|---|
+| **Hoch** | +15 | IT/Software, Ingenieurwesen & MINT, Pflege & Gesundheitswesen, Handwerk (Elektro, SHK, Bau), Bauwirtschaft, Logistik & Fahrpersonal, Gastronomie & Hotellerie, Erziehung & Pädagogik, Handwerksnahe Produktion mit Fachkräfteanteil |
+| **Mittel** | +5 | Klassische Industrie/Produktion mit gemischtem Qualifikationsniveau, Finanzdienstleistung, klassische Verwaltungsberufe |
+| **Gering** | 0 | Branchen mit strukturellem Personalüberhang, sehr geringer Wettbewerb um Arbeitskräfte, stark schrumpfende Sektoren |
 
 ### Presse- und Öffentlichkeitssignale
 
 Fasse die Tonalität der jüngsten (12-18 Monate) Presse-/Öffentlichkeitsrecherche
 (`datenquellen.md`) zusammen:
 
-| Einstufung | Kriterium |
-|---|---|
-| **Positiv** | Überwiegend Wachstums-/Expansionsmeldungen, Auszeichnungen, aktive Rekrutierungsoffensiven, positive Zitate der Geschäftsführung. |
-| **Neutral/gemischt** | Keine eindeutige Tendenz, oder Meldungen ohne klaren Bezug zur Personal-/Finanzlage. |
-| **Vorsicht** | Kurzarbeit, Stellenabbau, Insolvenz(-antrag), Restrukturierung, schlechte Presse zum Arbeitgeberimage. |
+| Einstufung | Punkte | Kriterium |
+|---|---|---|
+| **Positiv** | +10 | Überwiegend Wachstums-/Expansionsmeldungen, Auszeichnungen, aktive Rekrutierungsoffensiven, positive Zitate der Geschäftsführung. |
+| **Neutral/gemischt** | +3 | Keine eindeutige Tendenz, oder Meldungen ohne klaren Bezug zur Personal-/Finanzlage. |
+| **Vorsicht** | −15 | Kurzarbeit, Stellenabbau, Insolvenz(-antrag), Restrukturierung, schlechte Presse zum Arbeitgeberimage. |
 
-Ein Eigentümerwechsel, eine Private-Equity-Beteiligung oder eine Fusion ist für sich
-genommen weder positiv noch negativ, sollte aber immer erwähnt werden - solche Phasen
-verändern oft Entscheidungswege und Timing für eine Ansprache.
+### Entscheidungsstruktur (wer entscheidet über neue Benefits, und wie schnell?)
+
+Prüfe die Eigentümer-/Konzernstruktur (Handelsregister, Impressum, Presse zu
+Übernahmen/Investoren) - sie beeinflusst, wie leicht sich eine Ansprache in eine
+Entscheidung übersetzen lässt:
+
+| Einstufung | Punkte | Kriterium |
+|---|---|---|
+| **Inhabergeführt / eigenständiger Mittelstand** | +5 | Familienunternehmen oder eigenständige GmbH/oHG ohne erkennbare externe Kontrolle - meist kurze, direkte Entscheidungswege über Geschäftsführung/HR. |
+| **Teil einer Unternehmensgruppe mit dezentraler HR-Politik** | 0 | Konzern-Tochter, aber einzelne Standorte/Gesellschaften entscheiden erkennbar eigenständig über Benefits. |
+| **Konzern-Tochter mit zentraler HR-Politik** | −5 | Benefits werden konzernweit/im Ausland zentral entschieden - lokale Ansprache braucht einen anderen Zugang (Konzern-HR statt Standortleitung). |
+| **Kürzlich von Private Equity/Investor übernommen (< 2 Jahre)** | −10 | Entscheidungsstrukturen befinden sich typischerweise noch in der Post-Merger-Neuordnung, Budgets sind oft auf Kostendisziplin/Synergien fokussiert - siehe DATAGROUP/KKR-Fall. |
+| **Unbekannt** | 0 | Nicht recherchierbar. |
+
+### Veränderungssignale (frische Anlässe für ein Gespräch)
+
+Prüfe auf konkrete, in den letzten 12 Monaten bestätigte Ereignisse (Presse, LinkedIn,
+Handelsregister): neue HR-/Personalleitung, M&A/Fusion/Zukauf, Eröffnung eines neuen
+Standorts, eingeführte HR-/Payroll-Digitalisierung (z.B. neue HR-Software). Jedes
+bestätigte Signal zählt, auch mehrere gleichzeitig:
+
+| Anzahl bestätigter Signale | Punkte |
+|---|---|
+| 0 | 0 |
+| 1 | +5 |
+| 2 oder mehr | +10 |
+
+Solche Ereignisse sind oft der eigentliche Auslöser, warum ein Erstgespräch gerade jetzt
+angenommen wird (neue HR-Leitung will sich profilieren, ein Zukauf erfordert Harmonisierung
+der Benefits über mehrere Standorte) - erwähne sie im Bericht auch als konkreten
+Gesprächsaufhänger, nicht nur als Punktzahl.
 
 ### Basis-Score kombinieren
 
-Verdichte die vier Faktoren zu einer groben Einordnung **Gut / Mittel / Schwach**:
+Summiere die sechs Faktoren zu einer Punktzahl und ordne sie zusätzlich in eine grobe
+Kategorie **Gut / Mittel / Schwach** ein (die Kategorie steuert die "Schwach"-Deckelung aus
+dem Scoring-Abschnitt oben):
 
-- **Gut:** Umsatz und/oder Mitarbeiterzahl positiv, keine Vorsicht-Signale in der Presse.
-  Eine hohe Fachkräfte-Dringlichkeit hebt eine ansonsten nur neutrale Finanzlage auf "Gut".
-- **Schwach:** Umsatz oder Mitarbeiterzahl klar negativ **und** Vorsicht-Signale in der
-  Presse (z.B. Kurzarbeit plus rückläufiger Umsatz). Ein einzelnes negatives Signal allein
-  reicht nicht für "Schwach", wenn die übrigen Faktoren klar positiv sind (z.B. Umsatz
-  rückläufig, aber Presse zeigt gerade eine Erholung und hohe Fachkräfte-Dringlichkeit -->
-  eher "Mittel").
-- **Mittel:** alles dazwischen, sowie Fälle mit überwiegend unbekannten Daten.
+| Basis-Score-Punkte | Kategorie |
+|---|---|
+| ≥ 40 | Gut |
+| 10 bis 39 | Mittel |
+| < 10 | Schwach |
 
 Der Basis-Score beschreibt, wie *bereit und dringend* die Firma grundsätzlich ist - er
 sagt noch nichts darüber, welches der drei Produkte am meisten Sinn ergibt. Das klärt
@@ -91,61 +142,60 @@ Entgeltumwandlung, eine bAV in irgendeiner Form existiert deshalb praktisch übe
 Frage ist nicht "hat die Firma eine bAV?", sondern "wie ausgebaut ist sie, und was folgt
 daraus für die Ansprache?":
 
-| Reifegrad | Kriterium | Folgt daraus |
-|---|---|---|
-| **Kein Hinweis** | Keine Erwähnung von bAV in Stellenanzeigen/Karriereseite, auch nicht als Stichwort. Selten, aber möglich bei sehr jungen/kleinen Betrieben oder rein kommunikativem Defizit. | Höchstes Potenzial - klassische Neuansprache. |
-| **Gesetzliches Minimum** | bAV wird nur knapp/als Stichwort erwähnt, ohne erkennbaren Arbeitgeberzuschuss über das gesetzliche Minimum hinaus, ohne Anbieter/Durchführungsweg. | Hohes Potenzial - Ausbau-/Optimierungsgespräch, oft leicht zu argumentieren ("Ihre bAV ist Pflicht, aber noch nicht wirklich ein Benefit"). |
-| **Ausgebaut, Standard** | Erkennbarer Arbeitgeberzuschuss/Matching wird kommuniziert, wirkt aber wie ein branchenübliches Standardpaket ohne besondere Differenzierung. | Mittleres Potenzial - Benchmark-/Modernisierungsgespräch (Digitalisierung der Verwaltung, Wahlmöglichkeiten, Vergleich zum Wettbewerb). |
-| **Stark ausgebaut, aktiv beworben** | bAV wird prominent im Employer Branding genutzt (z.B. mit konkreten Zahlen, Wahloptionen, als Alleinstellungsmerkmal in Anzeigen). | Geringeres Neugeschäftspotenzial für bAV selbst, aber: gute Gelegenheit für Cross-Selling bKV/Unfallversicherung (Firma hat erkennbar Budget und Bewusstsein für Benefits) und ggf. Bestands-Review in 12+ Monaten. |
+| Reifegrad | Punkte | Kriterium | Folgt daraus |
+|---|---|---|---|
+| **Kein Hinweis** | +25 | Keine Erwähnung von bAV in Stellenanzeigen/Karriereseite, auch nicht als Stichwort. Selten, aber möglich bei sehr jungen/kleinen Betrieben oder rein kommunikativem Defizit. | Höchstes Potenzial - klassische Neuansprache. |
+| **Gesetzliches Minimum** | +20 | bAV wird nur knapp/als Stichwort erwähnt, ohne erkennbaren Arbeitgeberzuschuss über das gesetzliche Minimum hinaus, ohne Anbieter/Durchführungsweg. | Hohes Potenzial - Ausbau-/Optimierungsgespräch, oft leicht zu argumentieren ("Ihre bAV ist Pflicht, aber noch nicht wirklich ein Benefit"). |
+| **Ausgebaut, Standard** | +5 | Erkennbarer Arbeitgeberzuschuss/Matching wird kommuniziert, wirkt aber wie ein branchenübliches Standardpaket ohne besondere Differenzierung. | Mittleres Potenzial - Benchmark-/Modernisierungsgespräch (Digitalisierung der Verwaltung, Wahlmöglichkeiten, Vergleich zum Wettbewerb). |
+| **Stark ausgebaut, aktiv beworben** | −20 | bAV wird prominent im Employer Branding genutzt (z.B. mit konkreten Zahlen, Wahloptionen, als Alleinstellungsmerkmal in Anzeigen). | Geringeres Neugeschäftspotenzial für bAV selbst, aber: gute Gelegenheit für Cross-Selling bKV/Unfallversicherung (Firma hat erkennbar Budget und Bewusstsein für Benefits) und ggf. Bestands-Review in 12+ Monaten. |
 
 ### Betriebliche Krankenversicherung (bKV)
 
 Anders als bAV gesetzlich nicht vorgeschrieben und deutlich seltener verbreitet -
 Anwesenheit/Fehlen ist hier ein starkes, direktes Signal:
 
-| Reifegrad | Kriterium | Folgt daraus |
-|---|---|---|
-| **Nicht gefunden** | Keine Erwähnung in den geprüften Anzeigen/Karriereseite. | Hohes Potenzial - echter Weißfleck, klassische Neuansprache. |
-| **Gefunden, Umfang unklar** | bKV/Gesundheitsbudget erwähnt, aber ohne Details zu Umfang/Anbieter. | Mittleres Potenzial - Umfang und Zufriedenheit im Erstgespräch klären, ggf. Ergänzungs-/Ablösegeschäft. |
-| **Gefunden, umfangreich** | Konkreter Anbieter, Budget in Euro, oder mehrere Leistungsbausteine genannt. | Geringeres Potenzial für dieses Produkt - Thema ist erkennbar aktiv gemanagt. |
+| Reifegrad | Punkte | Kriterium | Folgt daraus |
+|---|---|---|---|
+| **Nicht gefunden** | +25 | Keine Erwähnung in den geprüften Anzeigen/Karriereseite. | Hohes Potenzial - echter Weißfleck, klassische Neuansprache. |
+| **Gefunden, Umfang unklar** | +10 | bKV/Gesundheitsbudget erwähnt, aber ohne Details zu Umfang/Anbieter. | Mittleres Potenzial - Umfang und Zufriedenheit im Erstgespräch klären, ggf. Ergänzungs-/Ablösegeschäft. |
+| **Gefunden, umfangreich** | −15 | Konkreter Anbieter, Budget in Euro, oder mehrere Leistungsbausteine genannt. | Geringeres Potenzial für dieses Produkt - Thema ist erkennbar aktiv gemanagt. |
 
 ### Gruppenunfallversicherung
 
 Ebenfalls nicht gesetzlich vorgeschrieben, seltener explizit beworben:
 
-| Reifegrad | Kriterium | Folgt daraus |
-|---|---|---|
-| **Nicht gefunden** | Keine Erwähnung in den geprüften Anzeigen/Karriereseite. | Hohes Potenzial. |
-| **Gefunden** | Explizit erwähnt (mit oder ohne Details). | Geringeres Potenzial für dieses Produkt, sofern keine Hinweise auf Unzufriedenheit/Lücken vorliegen. |
+| Reifegrad | Punkte | Kriterium | Folgt daraus |
+|---|---|---|---|
+| **Nicht gefunden** | +25 | Keine Erwähnung in den geprüften Anzeigen/Karriereseite. | Hohes Potenzial. |
+| **Gefunden** | −15 | Explizit erwähnt (mit oder ohne Details). | Geringeres Potenzial für dieses Produkt, sofern keine Hinweise auf Unzufriedenheit/Lücken vorliegen. |
 
 ## Kontextfaktoren, die die Reifegrade schärfen
 
-Diese drei Faktoren sind kein eigener Basis-Score-Bestandteil, sondern verfeinern die
-Produkt-Reifegrade aus Schritt 2, bevor du in Schritt 3 die Ampel bildest. Recherchiere
-sie wo möglich, aber erfinde nichts - wenn nichts auffindbar ist, werte einfach nicht (kein
-Malus für fehlende Information, keine Vermutung ins Blaue).
+Diese Faktoren fließen als zusätzliche Punkte **nur in das jeweils betroffene Produkt**
+ein (nicht in den Basis-Score, nicht in die anderen Produkte). Recherchiere sie wo
+möglich, aber erfinde nichts - wenn nichts auffindbar ist, werte einfach nicht (0 Punkte,
+kein Malus für fehlende Information).
 
-### Altersstruktur der Belegschaft (schärft bAV)
+### Altersstruktur der Belegschaft (bAV: +5)
 
 Hinweise findest du in Kununu-Kommentaren, Presseartikeln ("Durchschnittsalter X Jahre",
-Zitate zu "erfahrenen Kolleg:innen" oder "junger, dynamischer Truppe"), oder daran, ob
-Stellenanzeigen gezielt "Berufserfahrene"/"Wiedereinsteiger:innen 50+" ansprechen bzw.
-umgekehrt stark auf Berufseinsteiger und Trainee-Programme setzen.
+Zitate zu "erfahrenen Kolleg:innen" oder "junger, dynamischer Truppe"), im
+Nachhaltigkeits-/CSR-Bericht (siehe `datenquellen.md`), oder daran, ob Stellenanzeigen
+gezielt "Berufserfahrene"/"Wiedereinsteiger:innen 50+" ansprechen bzw. umgekehrt stark auf
+Berufseinsteiger und Trainee-Programme setzen.
 
-- **Überdurchschnittlich alte Belegschaft** (viele Beschäftigte in Rentennähe): erhöht die
-  bAV-Dringlichkeit unabhängig vom reinen Reifegrad. Selbst eine "Ausgebaut,
-  Standard"-bAV kann hier noch Beratungsbedarf haben (z.B. rentennahe Beratung,
-  Anpassung der Kapitalanlage). Liegt der Reifegrad ohnehin schon nah an der Grenze
-  zwischen zwei Stufen, darf eine alte Altersstruktur die bAV-Ampel um eine Stufe anheben.
-- **Junge/wachsende Belegschaft**: bAV ist weniger dringend im klassischen Sinn (lange
-  Zeit bis zur Rente), aber ein Ansatzpunkt für moderne, digitale bAV-Lösungen als
-  Recruiting-Argument statt reiner Altersvorsorge.
+- **Überdurchschnittlich alte Belegschaft** (viele Beschäftigte in Rentennähe): +5 Punkte
+  auf den bAV-Score. Selbst eine "Ausgebaut, Standard"-bAV kann hier noch Beratungsbedarf
+  haben (z.B. rentennahe Beratung, Anpassung der Kapitalanlage).
+- **Junge/wachsende Belegschaft**: keine Punkte, aber ein Ansatzpunkt für moderne,
+  digitale bAV-Lösungen als Recruiting-Argument statt reiner Altersvorsorge - im Bericht
+  erwähnen, auch ohne Punktebonus.
 
-### Tarifbindung & Betriebsrat (schärft bAV-Einordnung, beeinflusst den Ansprache-Weg)
+### Tarifbindung & Betriebsrat (schärft die bAV-Reifegrad-Einstufung selbst, keine Extra-Punkte)
 
 Prüfe auf Hinweise wie "Vergütung nach Tarif", "IG Metall-Tarifvertrag", "Tarifvertrag
 des Handwerks", "TVöD" (öffentlicher Dienst), sowie auf die Erwähnung eines Betriebsrats
-(Stellenanzeigen, Karriereseite, Kununu, Presse).
+(Stellenanzeigen, Karriereseite, Kununu, Presse, Nachhaltigkeits-/CSR-Bericht).
 
 - **Tarifgebunden mit branchenüblicher tariflicher bAV** (z.B. MetallRente in der Metall-
   und Elektroindustrie, tarifliche Regelungen im Handwerk oder öffentlichen Dienst):
@@ -154,64 +204,97 @@ des Handwerks", "TVöD" (öffentlicher Dienst), sowie auf die Erwähnung eines B
   bedeuten, auch wenn in den Anzeigen nichts Genaueres steht. Ist eine Tarifbindung
   erkennbar, aber keine bAV-Details auffindbar, stufe den Reifegrad vorsichtshalber nicht
   niedriger als "Ausgebaut, Standard" ein (statt "Gesetzliches Minimum") und weise im
-  Bericht auf diese Unsicherheit hin, statt fälschlich einen Weißfleck zu vermuten.
+  Bericht auf diese Unsicherheit hin, statt fälschlich einen Weißfleck zu vermuten. Das
+  wirkt sich automatisch über die geänderte Reifegrad-Stufe auf die Punktzahl aus.
 - **Betriebsrat vorhanden:** Bei der betrieblichen Altersversorgung hat der Betriebsrat
   ein Mitbestimmungsrecht (§87 BetrVG) - er ist damit Verhandlungspartner und möglicher
-  Anstoßgeber zugleich. Erwähne im Bericht, dass eine Ansprache über oder mit früher
-  Einbindung von HR/Betriebsrat sinnvoll sein kann, statt ihn zu übergehen.
+  Anstoßgeber zugleich. Kein Punktebonus/-abzug, aber erwähne im Bericht, dass eine
+  Ansprache über oder mit früher Einbindung von HR/Betriebsrat sinnvoll sein kann.
 - **Keine erkennbare Tarifbindung, kein Betriebsrat:** meist kleinere/mittlere
   Unternehmen mit direkteren Entscheidungswegen - eine Ansprache direkt über
   Geschäftsführung/HR ist hier meist der schnellere Weg.
 
-### Schichtarbeit & körperliche Belastung (schärft Gruppenunfallversicherung)
+### Schichtarbeit & körperliche Belastung (Gruppenunfallversicherung: +5)
 
 Prüfe Stellenanzeigen auf Begriffe wie "Schichtarbeit", "2-/3-Schicht-System",
 "Wechselschicht", "Nachtschicht", sowie auf körperlich anspruchsvolle Tätigkeitsfelder
 (Produktion, Bau, Logistik/Fahrpersonal, Pflege, Handwerk).
 
-- **Schichtarbeit und/oder körperlich anspruchsvolle Tätigkeiten erkennbar:** erhöht das
-  Unfallrisiko der Belegschaft spürbar und damit die sachliche Dringlichkeit einer
-  Gruppenunfallversicherung. Das ist ein starkes, konkretes Verkaufsargument, besonders
-  bei Reifegrad "Nicht gefunden" ("Ihre Mitarbeitenden tragen ein erhöhtes
-  Unfallrisiko, sind dafür aber bisher nicht zusätzlich abgesichert"). Kann die
-  Unfallversicherungs-Ampel bei knapper Einordnung um eine Stufe anheben.
-- **Überwiegend Bürotätigkeiten ohne Schichtarbeit:** Unfallversicherung bleibt relevant,
-  aber das Argument ist eher generisches Fürsorge-/Employer-Branding-Argument als
-  konkretes Risikoargument - keine Abwertung, nur ein weniger zwingender Aufhänger.
+- **Schichtarbeit und/oder körperlich anspruchsvolle Tätigkeiten erkennbar:** +5 Punkte
+  auf den Unfallversicherungs-Score. Das ist ein starkes, konkretes Verkaufsargument,
+  besonders bei Reifegrad "Nicht gefunden" ("Ihre Mitarbeitenden tragen ein erhöhtes
+  Unfallrisiko, sind dafür aber bisher nicht zusätzlich abgesichert").
+- **Überwiegend Bürotätigkeiten ohne Schichtarbeit:** keine Punkte. Unfallversicherung
+  bleibt relevant, aber das Argument ist eher generisches Fürsorge-/Employer-Branding-
+  Argument als konkretes Risikoargument.
 
-## Schritt 3: Ampel je Produkt
+### Anteil Geringverdiener (bAV: +5)
 
-Kombiniere Basis-Score (Schritt 1), Produkt-Reifegrad (Schritt 2) und die
-Kontextfaktoren zu je einer Ampel pro Produkt. Als Faustregel:
+Der Staat fördert Arbeitgeberzuschüsse zur bAV für Geringverdiener zusätzlich (§100 EStG,
+BAV-Förderbetrag) - das ist ein konkretes, sachliches Verkaufsargument, wenn ein
+nennenswerter Teil der Belegschaft darunter fällt. Die genaue Einkommensgrenze ändert sich
+gelegentlich - prüfe bei Bedarf den aktuell gültigen Wert, statt eine veraltete Zahl aus
+dem Gedächtnis zu übernehmen.
 
-- **Basis-Score "Schwach"** deckelt alle drei Ampeln auf 🔴 Niedrig, unabhängig vom
-  Reifegrad - eine Firma in wirtschaftlicher Schieflage ist aktuell kein guter
-  Ansprache-Zeitpunkt, selbst wenn z.B. bKV noch komplett fehlt. Nenne diesen Fall im
-  Bericht explizit als "aktuell ungünstiges Timing, Thema bleibt aber relevant".
-- **Basis-Score "Gut" oder "Mittel"** + Reifegrad "Kein Hinweis" oder "Gesetzliches
-  Minimum"/"Nicht gefunden" → 🟢 Hoch.
-- **Basis-Score "Gut" oder "Mittel"** + Reifegrad "Ausgebaut, Standard"/"Umfang unklar" →
-  🟡 Mittel.
-- **Basis-Score "Gut" oder "Mittel"** + Reifegrad "Stark ausgebaut, aktiv
-  beworben"/"umfangreich" → 🟡 Mittel für Cross-Selling der anderen Produkte, aber 🔴
-  Niedrig für gezielte Neuansprache bei genau diesem Produkt.
-- **Passende Kontextfaktoren heben die jeweilige Produkt-Ampel um höchstens eine Stufe
-  an**, wenn der Reifegrad ohnehin knapp an der Grenze zwischen zwei Stufen lag (z.B.
-  alte Altersstruktur bei bAV, Schichtarbeit bei Unfallversicherung) - sie ersetzen nie
-  den Basis-Score-Deckel bei "Schwach" und drücken eine Ampel nie nach unten, sie
-  bestärken höchstens ein ohnehin vorhandenes Potenzial.
+- Schätze den Anteil über die in Stellenanzeigen/Tarif-Gehaltstabellen erkennbaren
+  Lohnniveaus der ausgeschriebenen Positionen (z.B. PTA-, Produktions-, Lager- oder
+  Einstiegsgehälter). Ist ein spürbarer Anteil der Belegschaft im Geringverdiener-Bereich
+  erkennbar: +5 Punkte auf den bAV-Score und den Förderbetrag im Bericht als konkretes
+  Argument nennen.
+- Ohne belastbaren Hinweis: keine Punkte, nicht spekulieren.
 
-Bei überwiegend unbekannten/lückenhaften Daten: gib die wahrscheinlichste Einstufung ab,
-kennzeichne sie aber explizit als vorläufig ("🟡 Mittel (vorläufig, Datenbasis
+## Schritt 3: Punktzahl → Ampel je Produkt
+
+Bilde für jedes der drei Produkte den Produkt-Score (Formel siehe oben), wende die
+"Schwach"-Deckelung an falls zutreffend, und lies die Ampel aus der Schwellen-Tabelle ab.
+Weise Punktzahl und Ampel gemeinsam aus.
+
+Bei überwiegend unbekannten/lückenhaften Daten (viele Faktoren mit 0 Punkten mangels
+Information): gib die aus den vorhandenen Punkten resultierende Einstufung ab, kennzeichne
+sie aber explizit als vorläufig ("38 Punkte → 🟡 Mittel (vorläufig, Datenbasis
 lückenhaft)") und liste die fehlenden Informationen im Abschnitt "Offene
 Fragen/Datenlücken" auf, statt eine unbegründet sichere Einstufung zu geben.
 
+## Deal-Size-Einordnung (Priorisierung, kein Teil der Ampel)
+
+Bei mehreren Firmen mit gleicher Ampel hilft eine grobe Größeneinordnung bei der
+Priorisierung - wer zuerst angesprochen wird. Nutze dafür ausschließlich die recherchierte
+oder plausibel geschätzte Mitarbeiterzahl, **keine erfundenen Euro-Beträge** (es gibt keine
+verlässliche, allgemeingültige Preis-pro-Kopf-Kennzahl, die sich seriös ohne Kundendaten
+schätzen ließe):
+
+| Größenklasse | Mitarbeiterzahl |
+|---|---|
+| Klein | < 20 |
+| Mittel | 20-100 |
+| Groß | > 100 |
+
+Nenne die Größenklasse im Bericht als Priorisierungshinweis ("mittlere Firmengröße, bei
+gleicher Ampel priorisierbar gegenüber kleineren Kandidaten"), aber erfinde keine
+Prämienvolumen-Zahl ohne belastbare Grundlage.
+
+## Ansprechbarkeit (praktischer Hinweis, kein Teil der Ampel)
+
+Prüfe, ob ein konkreter Ansprechpartner auffindbar ist (Geschäftsführung, HR-/
+Personalleitung) - über Impressum, Karriereseite, LinkedIn oder Presse:
+
+| Einstufung | Bedeutung |
+|---|---|
+| **Konkreter Kontakt auffindbar** | Name und Funktion bekannt - "warmer" Einstieg möglich. |
+| **Nur allgemeine Kontaktdaten** | Nur Telefon/E-Mail-Sammelpostfach - Einstieg erfordert mehr Vorarbeit. |
+| **Kein Kontakt auffindbar** | Direktkontakt (Anruf) wahrscheinlich nötig, bevor eine gezielte Ansprache möglich ist. |
+
+Das ist ein reiner Vertriebs-Praktikabilitätshinweis, kein Potenzial-Kriterium - eine
+schwer erreichbare Firma kann trotzdem hohes Potenzial haben.
+
 ## Beispiel
 
-Firma aus dem Handwerk (hohe Fachkräfte-Dringlichkeit) mit Umsatz +8 %/+6 % in den
-letzten zwei Jahren, wachsender Mitarbeiterzahl und positiver Presse zu einer
-Expansion → Basis-Score "Gut". In den Stellenanzeigen wird bAV nur als Stichwort ohne
-Zuschuss-Angabe genannt (Reifegrad "Gesetzliches Minimum"), bKV und Unfallversicherung
-werden gar nicht erwähnt. Ergebnis: bAV 🟢 Hoch (Ausbaugespräch), bKV 🟢 Hoch,
-Unfallversicherung 🟢 Hoch - insgesamt ein sehr vielversprechender Lead für alle drei
-Produkte, obwohl "irgendeine bAV" bereits vorhanden ist.
+Firma aus dem Handwerk (hohe Fachkräfte-Dringlichkeit, +15), Umsatz +8 %/+6 % in den
+letzten zwei Jahren (positiv, +15), wachsende Mitarbeiterzahl (positiv, +15), positive
+Presse zu einer Expansion (+10), inhabergeführt (+5), keine bestätigten
+Veränderungssignale (0) → Basis-Score 60 Punkte (Kategorie "Gut"). In den Stellenanzeigen
+wird bAV nur als Stichwort ohne Zuschuss-Angabe genannt (Reifegrad "Gesetzliches Minimum",
++20), bKV und Unfallversicherung werden gar nicht erwähnt (je +25). Keine Kontextfaktor-
+Treffer. Ergebnis: bAV 80 Punkte → 🟢 Hoch (Ausbaugespräch), bKV 85 Punkte → 🟢 Hoch,
+Unfallversicherung 85 Punkte → 🟢 Hoch - insgesamt ein sehr vielversprechender Lead für
+alle drei Produkte, obwohl "irgendeine bAV" bereits vorhanden ist.

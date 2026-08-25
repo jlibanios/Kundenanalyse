@@ -31,11 +31,24 @@ sie **getrennt** statt in einem Topf:
   Absage. Bei bKV und Gruppenunfallversicherung ist das anders - beide sind nicht
   gesetzlich vorgeschrieben und deutlich seltener vorhanden, hier ist "nicht gefunden"
   tatsächlich ein starkes positives Signal.
-- **Altersstruktur, Tarifbindung/Betriebsrat und Schichtarbeit** schärfen die Einordnung
-  zusätzlich: eine alte Belegschaft erhöht die bAV-Dringlichkeit, eine erkennbare
-  Tarifbindung kann eine bereits über das Minimum hinausgehende bAV bedeuten (auch ohne
-  Erwähnung in Stellenanzeigen), und Schichtarbeit/körperliche Belastung ist ein starkes
-  Argument für die Gruppenunfallversicherung.
+- **Altersstruktur, Tarifbindung/Betriebsrat, Schichtarbeit und Anteil Geringverdiener**
+  schärfen die Einordnung zusätzlich: eine alte Belegschaft erhöht die bAV-Dringlichkeit,
+  eine erkennbare Tarifbindung kann eine bereits über das Minimum hinausgehende bAV
+  bedeuten (auch ohne Erwähnung in Stellenanzeigen), Schichtarbeit/körperliche Belastung
+  ist ein starkes Argument für die Gruppenunfallversicherung, und ein hoher
+  Geringverdiener-Anteil macht den staatlichen bAV-Förderbetrag (§100 EStG) zu einem
+  konkreten Verkaufsargument.
+- **Entscheidungsstruktur und Veränderungssignale** fließen zusätzlich in den Basis-Score
+  ein: inhabergeführte Firmen entscheiden meist schneller als Konzern-Töchter mit
+  zentraler HR-Politik oder frisch von Private Equity übernommene Unternehmen; bestätigte
+  Ereignisse wie eine neue Personalleitung, ein Zukauf oder eine Standorteröffnung sind
+  oft der konkrete Anlass, warum ein Gespräch gerade jetzt zustande kommt.
+- **Die Einstufung wird als Punktzahl ausgedrückt**, nicht nur als Ampel-Text - das macht
+  nachvollziehbar, wie knapp oder eindeutig eine Einstufung ausfällt, und erlaubt den
+  Vergleich mehrerer Firmen (z.B. bei der Wochenroutine, wo mehrere Kandidaten gegeneinander
+  abgewogen werden). Ergänzend werden eine grobe **Größenklasse** (Priorisierung bei
+  gleicher Ampel) und die **Ansprechbarkeit** (ist ein konkreter Kontakt auffindbar)
+  ausgewiesen - beides praktische Hinweise, kein Teil der Punktzahl selbst.
 
 Details zur genauen Bewertungslogik stehen in `references/bewertungskriterien.md`.
 
@@ -49,7 +62,10 @@ recherchieren sollst.
 
 Kläre knapp: vollständiger Firmenname, Rechtsform, Sitz/Standort, Branche, Website.
 Das reduziert Verwechslungen (viele Firmen teilen sich einen Namen). Wenn eine
-Handelsregisternummer oder ein Ort bereits bekannt ist, nutze das zur Eingrenzung.
+Handelsregisternummer oder ein Ort bereits bekannt ist, nutze das zur Eingrenzung. Prüfe
+dabei nebenbei die **Ansprechbarkeit** (LinkedIn, Impressum, Karriereseite) - gibt es einen
+konkret benannten HR-/Geschäftsführungs-Kontakt oder nur allgemeine Kontaktdaten? Siehe
+`references/datenquellen.md`.
 
 ### 2. Finanzkennzahlen & Mitarbeiterentwicklung recherchieren
 
@@ -63,14 +79,17 @@ Offenlegungspflicht befreit sind), nutze Proxy-Indikatoren (z.B. Mitarbeiterzahl
 auf LinkedIn, Presseartikel über Expansion/Neubau/Stellenabbau, Bonitätshinweise) und
 mach transparent, dass es sich um Näherungswerte handelt.
 
-### 3. Branche, Fachkräftesituation & Belegschaftsstruktur einordnen
+### 3. Branche, Fachkräftesituation, Belegschaftsstruktur & Entscheidungsstruktur einordnen
 
 Ordne die Branche der Firma grob nach Fachkräfte-Dringlichkeit ein (hoch/mittel/gering)
 und belege das nach Möglichkeit mit einer Quelle (z.B. Presseartikel oder
 Branchenverband zum Fachkräftemangel in der Branche). Prüfe außerdem, soweit auffindbar,
-die **Altersstruktur der Belegschaft** und **Tarifbindung/Betriebsrat** - beide schärfen
-später speziell die bAV-Einordnung. Die Einordnungshilfen mit Beispielbranchen und den
-Kontextfaktoren stehen in `references/bewertungskriterien.md`.
+die **Altersstruktur der Belegschaft**, **Tarifbindung/Betriebsrat** und den **Anteil
+Geringverdiener** - diese schärfen später speziell die bAV-Einordnung. Kläre zusätzlich
+die **Entscheidungsstruktur** (inhabergeführt, Konzern-Tochter, kürzlich von
+Private Equity übernommen o.ä.) - das fließt in den Basis-Score ein. Die
+Einordnungshilfen mit Beispielbranchen und den Kontextfaktoren stehen in
+`references/bewertungskriterien.md`, Recherchewege in `references/datenquellen.md`.
 
 ### 4. Stellenanzeigen prüfen - bAV, bKV und Unfallversicherung getrennt
 
@@ -84,20 +103,26 @@ außerdem auf Hinweise zu **Schichtarbeit oder körperlich anspruchsvollen Täti
 das schärft später die Unfallversicherungs-Einordnung. Details und Suchbegriffe je
 Faktor stehen in `references/datenquellen.md`.
 
-### 5. Presse- und Öffentlichkeitsrecherche
+### 5. Presse-, Öffentlichkeits- und Veränderungsrecherche
 
 Recherchiere aktiv die jüngste Berichterstattung (12-18 Monate) zur Firma - Wachstum,
 Auszeichnungen, Rekrutierungsoffensiven, aber auch Kurzarbeit, Stellenabbau oder
 Eigentümerwechsel. Das ist ein eigenständiger Bewertungsfaktor, kein reiner Lückenfüller
-für fehlende Bilanzzahlen. Suchmuster stehen in `references/datenquellen.md`.
+für fehlende Bilanzzahlen. Prüfe im selben Zug auf bestätigte **Veränderungssignale**
+(neue Personalleitung, M&A/Zukauf, Standorteröffnung, HR-Digitalisierung) - auch diese
+fließen in den Basis-Score ein und liefern oft den konkreten Gesprächsaufhänger. Suchmuster
+für beides stehen in `references/datenquellen.md`.
 
 ### 6. Bewerten
 
-Bewerte zunächst den produktunabhängigen Basis-Score (Umsatz, Mitarbeiterzahl, Branche,
-Presse), dann für jedes der drei Produkte einzeln den Reifegrad, und leite daraus drei
-getrennte Ampeln ab (bAV, bKV, Gruppenunfallversicherung). Die genaue Bewertungslogik mit
-Schwellenwerten und Beispielen steht in `references/bewertungskriterien.md` - lies diese
-Datei vor der Einstufung, damit die Bewertung nachvollziehbar und konsistent ist.
+Berechne zunächst den produktunabhängigen Basis-Score als Punktzahl (Umsatz,
+Mitarbeiterzahl, Branche, Presse, Entscheidungsstruktur, Veränderungssignale), dann für
+jedes der drei Produkte einzeln den Reifegrad-Score inkl. zutreffender Kontextfaktoren, und
+leite daraus drei getrennte Punktzahlen und Ampeln ab (bAV, bKV, Gruppenunfallversicherung).
+Ergänze die Größenklasse (Deal-Size) und Ansprechbarkeit als praktische Hinweise. Die genaue
+Bewertungslogik mit Punktwerten, Schwellenwerten und Beispielen steht in
+`references/bewertungskriterien.md` - lies diese Datei vor der Einstufung, damit die
+Bewertung nachvollziehbar, konsistent und über mehrere Firmen hinweg vergleichbar ist.
 
 ### 7. Bericht erstellen
 
@@ -144,8 +169,9 @@ eine falsche Sicherheit vortäuschende Zahl.
 
 - `references/datenquellen.md` - wo und wie man Umsatz-, Mitarbeiter- und Benefit-Daten
   für deutsche Unternehmen recherchiert, inkl. Suchstrategien und Fallstricken.
-- `references/bewertungskriterien.md` - die genaue Bewertungslogik (Schwellenwerte,
-  Ampel-Zuordnung, Umgang mit lückenhaften Daten).
+- `references/bewertungskriterien.md` - die genaue Bewertungslogik inkl. Punkte-Scoring
+  (Basis-Score, Produkt-Reifegrad, Kontextfaktoren, Größenklasse, Ansprechbarkeit,
+  Schwellenwerte, Umgang mit lückenhaften Daten).
 - `references/corporate_design.md` - Logo, Markenfarben und Pflichtvorgaben für jede
   .docx-Ausgabe.
 - `assets/analysebericht_template.md` - die Zielstruktur des Analyseberichts.
