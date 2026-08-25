@@ -48,6 +48,11 @@ Fachkräftemangel in der Branche).]
 
 **Einschätzung Fachkräftesituation:** [Hoch / Mittel / Gering]
 
+**Stellenanzeigen-Volumen (firmenspezifisches Dringlichkeitssignal):** [Anzahl aktuell
+gleichzeitig offener Positionen, z.B. "6 unterschiedliche offene Stellen gefunden (Quelle,
+Datum) - deutlich über dem Branchendurchschnitt, starkes firmenspezifisches
+Dringlichkeitssignal" / "nur 1 offene Stelle gefunden"]
+
 ## 5. Presse-, Öffentlichkeits- und Veränderungssignale
 
 | Datum | Meldung | Einordnung |
@@ -98,6 +103,11 @@ Sätze Begründung]
 Spezialistenpositionen - Executive-taugliche bKV als Differenzierungsargument im
 Recruiting"]
 
+**Körperliche Belastung (Kontextfaktor, siehe Abschnitt 8):** [1-2 Sätze - z.B. "keine
+ausgeprägte körperliche Belastung erkennbar" / "körperlich anspruchsvolle Tätigkeiten
+(Handwerk/Pflege o.ä.) laut Stellenanzeigen - erhöhtes Risiko für Verschleiß und
+Krankenstand, schnellere fachärztliche Versorgung über bKV als sachliches Argument"]
+
 ## 8. Gruppenunfallversicherung
 
 | Anzeige (Position, Quelle, Datum) | Was zur Unfallversicherung genannt wird |
@@ -106,15 +116,19 @@ Recruiting"]
 
 **Reifegrad:** [Nicht gefunden / Gefunden] – [1-2 Sätze Begründung]
 
-**Schichtarbeit & körperliche Belastung (Kontextfaktor):** [1-2 Sätze - z.B. "Mehrschicht-
-betrieb in der Produktion laut Stellenanzeigen, erhöht Unfallrisiko und damit die
-Dringlichkeit" / "überwiegend Bürotätigkeiten, kein erhöhtes Unfallrisiko erkennbar"]
+**Schichtarbeit & körperliche Belastung (Kontextfaktor, körperliche Belastung wirkt sich
+zusätzlich auf bKV aus, siehe Abschnitt 7):** [1-2 Sätze - z.B. "Mehrschichtbetrieb in der
+Produktion laut Stellenanzeigen, erhöht Unfallrisiko und damit die Dringlichkeit;
+zusätzlich körperlich anspruchsvolle Tätigkeit (Handwerk) - wirkt sich auch auf die
+bKV-Einstufung aus" / "überwiegend Bürotätigkeiten, kein erhöhtes Unfallrisiko oder
+körperliche Belastung erkennbar"]
 
 ## 9. Gesamtfazit & Potenzial-Einstufung je Produkt
 
 **Basis-Score: [Punktzahl] Punkte → [Gut / Mittel / Schwach]**
 [Kurze Aufschlüsselung, z.B. "Umsatz +15, Mitarbeiter +15, Branche +15, Presse +10,
-Entscheidungsstruktur +5, Veränderungssignale 0 = 60 Punkte"] – [1-2 Sätze Begründung]
+Entscheidungsstruktur +5, Veränderungssignale 0, Stellenanzeigen-Volumen +10 = 70 Punkte"]
+– [1-2 Sätze Begründung]
 
 | Produkt | Punkte | Ampel | Empfehlung |
 |---|---|---|---|

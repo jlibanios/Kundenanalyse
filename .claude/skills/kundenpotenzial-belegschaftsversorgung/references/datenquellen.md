@@ -33,9 +33,14 @@ Praktische Suchmuster: `"[Firmenname]" Stellenangebote`, `site:indeed.de "[Firme
 
 Sieh dir nach Möglichkeit **mehrere aktuelle Anzeigen** an (3-5, unterschiedliche
 Positionen/Standorte), nicht nur eine einzelne - manche Anzeigen sind veraltet oder listen
-nicht alle Benefits. Bewerte bAV, bKV und Unfallversicherung als **drei getrennte
-Signale**, nicht als einen gemeinsamen "Benefits"-Topf - sie haben eine sehr
-unterschiedliche Verbreitung und Aussagekraft (siehe `bewertungskriterien.md`):
+nicht alle Benefits. **Zähle dabei auch, wie viele unterschiedliche Positionen insgesamt
+gleichzeitig ausgeschrieben sind** (nicht nur die 3-5, die du inhaltlich prüfst) - das ist
+das Stellenanzeigen-Volumen, ein eigener Basis-Score-Faktor (siehe
+`bewertungskriterien.md`): viele gleichzeitig offene Stellen zeigen konkreten,
+firmenspezifischen Einstellungsdruck, nicht nur die allgemeine Branchenlage. Bewerte bAV,
+bKV und Unfallversicherung als **drei getrennte Signale**, nicht als einen gemeinsamen
+"Benefits"-Topf - sie haben eine sehr unterschiedliche Verbreitung und Aussagekraft (siehe
+`bewertungskriterien.md`):
 
 **Betriebliche Altersvorsorge (bAV):** Seit 2002 hat jeder Arbeitnehmer einen
 gesetzlichen Anspruch auf Entgeltumwandlung (§1a BetrAVG) - eine bAV in irgendeiner Form
@@ -67,10 +72,14 @@ Vermerke im Bericht immer Quelle und Datum der geprüften Anzeigen, damit die Ei
 nachvollziehbar bleibt.
 
 Achte beim Lesen der Anzeigen zusätzlich auf **Schichtarbeit und körperliche Belastung**
-(schärft später die Unfallversicherungs-Einordnung, siehe `bewertungskriterien.md`):
-Begriffe wie "Schichtarbeit", "2-/3-Schicht-System", "Wechselschicht", "Nachtschicht",
-sowie Tätigkeitsbeschreibungen aus Produktion, Bau, Logistik/Fahrpersonal, Pflege oder
-Handwerk.
+(schärft später sowohl die Unfallversicherungs- als auch die bKV-Einordnung, siehe
+`bewertungskriterien.md`): Begriffe wie "Schichtarbeit", "2-/3-Schicht-System",
+"Wechselschicht", "Nachtschicht" für die Unfallversicherungs-Seite; Tätigkeitsbeschreibungen
+mit schwerem Heben/Tragen, häufigem Bücken/Knien oder Zwangshaltungen für die
+zusätzliche bKV-Relevanz. Besonders ausgeprägt typischerweise im **Handwerk** (Bau, SHK,
+Tischler/Schreiner) und im **Pflege-/Gesundheitswesen** (Patiententransfer, oft in
+Kombination mit Schichtdienst), aber auch in Produktion und Logistik/Lager mit häufigem
+Lastenheben.
 
 ## Belegschaftsstruktur: Altersstruktur, Tarifbindung, Betriebsrat
 

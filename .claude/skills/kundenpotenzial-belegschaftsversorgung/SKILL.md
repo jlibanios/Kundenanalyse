@@ -20,7 +20,10 @@ sie **getrennt** statt in einem Topf:
   aktiv einstellt, konkurriert um Talente und ist offener für neue Anreize.
 - **Eine Branche mit spürbarem Fachkräftemangel** (z.B. IT, Pflege, Handwerk,
   Ingenieurwesen, Bau, Logistik) erhöht die Dringlichkeit unabhängig von den reinen
-  Zahlen - solche Firmen brauchen Benefits als Wettbewerbsvorteil im Recruiting.
+  Zahlen - solche Firmen brauchen Benefits als Wettbewerbsvorteil im Recruiting. **Viele
+  gleichzeitig offene Stellenanzeigen bei genau dieser Firma** sind das konkrete,
+  firmenspezifische Pendant dazu - sie zeigen akuten Einstellungsdruck jetzt, nicht nur
+  eine grundsätzlich angespannte Branchenlage.
 - **Presseberichterstattung** liefert Kontext, den Kennzahlen allein nicht zeigen:
   Expansion, Auszeichnungen und Rekrutierungsoffensiven sprechen für eine Ansprache;
   Kurzarbeit, Stellenabbau oder Insolvenzsignale sprechen (zumindest fürs Timing) dagegen.
@@ -31,11 +34,14 @@ sie **getrennt** statt in einem Topf:
   Absage. Bei bKV und Gruppenunfallversicherung ist das anders - beide sind nicht
   gesetzlich vorgeschrieben und deutlich seltener vorhanden, hier ist "nicht gefunden"
   tatsächlich ein starkes positives Signal.
-- **Altersstruktur, Tarifbindung/Betriebsrat, Schichtarbeit und Gehaltsstruktur**
-  schärfen die Einordnung zusätzlich: eine alte Belegschaft erhöht die bAV-Dringlichkeit,
-  eine erkennbare Tarifbindung kann eine bereits über das Minimum hinausgehende bAV
-  bedeuten (auch ohne Erwähnung in Stellenanzeigen), Schichtarbeit/körperliche Belastung
-  ist ein starkes Argument für die Gruppenunfallversicherung. Bei der Gehaltsstruktur
+- **Altersstruktur, Tarifbindung/Betriebsrat, Schichtarbeit/körperliche Belastung und
+  Gehaltsstruktur** schärfen die Einordnung zusätzlich: eine alte Belegschaft erhöht die
+  bAV-Dringlichkeit, eine erkennbare Tarifbindung kann eine bereits über das Minimum
+  hinausgehende bAV bedeuten (auch ohne Erwähnung in Stellenanzeigen), Schichtarbeit ist
+  ein starkes Argument für die Gruppenunfallversicherung - und **ausgeprägt körperliche
+  Belastung** (typisch in Handwerk und Pflege: schweres Heben, Zwangshaltungen) wirkt sich
+  zusätzlich auf die bKV aus, da sie das Risiko für Verschleiß und einen erhöhten
+  Krankenstand mit sich bringt. Bei der Gehaltsstruktur
   zählen **beide Enden der Skala**: ein hoher Geringverdiener-Anteil macht den
   staatlichen bAV-Förderbetrag (§100 EStG) zu einem konkreten Verkaufsargument, und ein
   hoher Anteil gut bezahlter Fachkräfte/Führungspositionen ist genauso ein starkes
@@ -102,12 +108,15 @@ Einordnungshilfen mit Beispielbranchen und den Kontextfaktoren stehen in
 Suche aktuelle offene Stellen der Firma (Indeed, StepStone, LinkedIn Jobs, eigene
 Karriereseite) und prüfe für **jedes der drei Produkte einzeln**, was dort beworben wird -
 nicht als ein gemeinsames "Benefits vorhanden ja/nein". Schau dir dafür mehrere aktuelle
-Anzeigen an (idealerweise 3-5), nicht nur eine - einzelne Anzeigen sind manchmal
-unvollständig gepflegt. Achte bei bAV besonders auf Qualitätssignale (Zuschuss über das
-gesetzliche Minimum hinaus, genannter Anbieter) statt nur auf die reine Erwähnung. Achte
-außerdem auf Hinweise zu **Schichtarbeit oder körperlich anspruchsvollen Tätigkeiten** -
-das schärft später die Unfallversicherungs-Einordnung. Details und Suchbegriffe je
-Faktor stehen in `references/datenquellen.md`.
+Anzeigen inhaltlich an (idealerweise 3-5), nicht nur eine - einzelne Anzeigen sind manchmal
+unvollständig gepflegt. Zähle daneben die **Gesamtzahl gleichzeitig offener Positionen**
+(das Stellenanzeigen-Volumen, ein Basis-Score-Faktor). Achte bei bAV besonders auf
+Qualitätssignale (Zuschuss über das gesetzliche Minimum hinaus, genannter Anbieter) statt
+nur auf die reine Erwähnung. Achte außerdem auf Hinweise zu **Schichtarbeit** (schärft die
+Unfallversicherungs-Einordnung) **und ausgeprägt körperlicher Belastung** wie schwerem
+Heben oder Zwangshaltungen, typisch in Handwerk und Pflege (schärft *zusätzlich* die
+bKV-Einordnung, da körperliche Belastung Verschleiß und Krankenstand erhöht). Details und
+Suchbegriffe je Faktor stehen in `references/datenquellen.md`.
 
 ### 5. Presse-, Öffentlichkeits- und Veränderungsrecherche
 
@@ -122,7 +131,8 @@ für beides stehen in `references/datenquellen.md`.
 ### 6. Bewerten
 
 Berechne zunächst den produktunabhängigen Basis-Score als Punktzahl (Umsatz,
-Mitarbeiterzahl, Branche, Presse, Entscheidungsstruktur, Veränderungssignale), dann für
+Mitarbeiterzahl, Branche, Presse, Entscheidungsstruktur, Veränderungssignale,
+Stellenanzeigen-Volumen), dann für
 jedes der drei Produkte einzeln den Reifegrad-Score inkl. zutreffender Kontextfaktoren, und
 leite daraus drei getrennte Punktzahlen und Ampeln ab (bAV, bKV, Gruppenunfallversicherung).
 Ergänze die Größenklasse (Deal-Size) und Ansprechbarkeit als praktische Hinweise. Die genaue

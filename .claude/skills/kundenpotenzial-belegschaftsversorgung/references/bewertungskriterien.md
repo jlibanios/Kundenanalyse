@@ -116,9 +116,29 @@ angenommen wird (neue HR-Leitung will sich profilieren, ein Zukauf erfordert Har
 der Benefits über mehrere Standorte) - erwähne sie im Bericht auch als konkreten
 Gesprächsaufhänger, nicht nur als Punktzahl.
 
+### Stellenanzeigen-Volumen (firmenspezifisches Dringlichkeitssignal)
+
+Die Branchen-Einordnung (oben) zeigt, wie umkämpft der Arbeitsmarkt generell ist - das
+Stellenanzeigen-Volumen zeigt, wie akut *diese konkrete Firma* betroffen ist. Viele
+gleichzeitig offene Positionen bedeuten spürbaren Einstellungsdruck jetzt, nicht nur
+grundsätzlich, und damit eine höhere Bereitschaft, sich über Benefits als Arbeitgeber zu
+profilieren - zähle dafür einfach, wie viele unterschiedliche aktuelle Stellenanzeigen du
+bei der Recherche (Schritt 4 im Workflow) für die Firma findest:
+
+| Anzahl gleichzeitig offener Positionen | Punkte |
+|---|---|
+| 0-1 | 0 |
+| 2-4 | +5 |
+| 5 oder mehr | +10 |
+
+Nenne im Bericht die konkrete Anzahl gefundener Anzeigen, nicht nur die Punktzahl - das
+macht die Einschätzung nachvollziehbar und liefert gleichzeitig ein Argument für den
+Gesprächseinstieg ("Sie suchen aktuell X Positionen gleichzeitig - wie stark spüren Sie
+den Fachkräftemangel im Recruiting?").
+
 ### Basis-Score kombinieren
 
-Summiere die sechs Faktoren zu einer Punktzahl und ordne sie zusätzlich in eine grobe
+Summiere die sieben Faktoren zu einer Punktzahl und ordne sie zusätzlich in eine grobe
 Kategorie **Gut / Mittel / Schwach** ein (die Kategorie steuert die "Schwach"-Deckelung aus
 dem Scoring-Abschnitt oben):
 
@@ -214,19 +234,34 @@ des Handwerks", "TVöD" (öffentlicher Dienst), sowie auf die Erwähnung eines B
   Unternehmen mit direkteren Entscheidungswegen - eine Ansprache direkt über
   Geschäftsführung/HR ist hier meist der schnellere Weg.
 
-### Schichtarbeit & körperliche Belastung (Gruppenunfallversicherung: +5)
+### Schichtarbeit & körperliche Belastung (Gruppenunfallversicherung: +5, bKV: +5 bei ausgeprägter körperlicher Belastung)
 
-Prüfe Stellenanzeigen auf Begriffe wie "Schichtarbeit", "2-/3-Schicht-System",
-"Wechselschicht", "Nachtschicht", sowie auf körperlich anspruchsvolle Tätigkeitsfelder
-(Produktion, Bau, Logistik/Fahrpersonal, Pflege, Handwerk).
+Schichtarbeit und körperliche Belastung sind zwei verwandte, aber unterschiedliche
+Signale mit unterschiedlicher Wirkung - prüfe beide getrennt, statt sie in einen Topf zu
+werfen:
 
-- **Schichtarbeit und/oder körperlich anspruchsvolle Tätigkeiten erkennbar:** +5 Punkte
-  auf den Unfallversicherungs-Score. Das ist ein starkes, konkretes Verkaufsargument,
-  besonders bei Reifegrad "Nicht gefunden" ("Ihre Mitarbeitenden tragen ein erhöhtes
-  Unfallrisiko, sind dafür aber bisher nicht zusätzlich abgesichert").
-- **Überwiegend Bürotätigkeiten ohne Schichtarbeit:** keine Punkte. Unfallversicherung
-  bleibt relevant, aber das Argument ist eher generisches Fürsorge-/Employer-Branding-
-  Argument als konkretes Risikoargument.
+- **Schichtarbeit** (Begriffe wie "Schichtarbeit", "2-/3-Schicht-System",
+  "Wechselschicht", "Nachtschicht") erhöht vor allem das **Unfallrisiko** (Ermüdung,
+  Arbeiten zu Randzeiten) → **+5 Punkte auf den Unfallversicherungs-Score**. Starkes,
+  konkretes Verkaufsargument, besonders bei Reifegrad "Nicht gefunden" ("Ihre
+  Mitarbeitenden tragen ein erhöhtes Unfallrisiko, sind dafür aber bisher nicht
+  zusätzlich abgesichert").
+- **Ausgeprägt körperliche Belastung** (schweres Heben/Tragen, häufiges Bücken/Knien,
+  Zwangshaltungen, hohe körperliche Dauerbelastung) erhöht zusätzlich das Risiko für
+  Verschleißerkrankungen, Rückenprobleme und einen dadurch überdurchschnittlichen
+  Krankenstand → **zusätzlich +5 Punkte auf den bKV-Score**. Das betrifft typischerweise:
+  - **Handwerk** (Bau, SHK, Dachdecker, Tischler/Schreiner - schweres Heben, Zwangshaltungen)
+  - **Pflege- und Gesundheitswesen** (Patiententransfer/Lagerung, Schichtdienst plus
+    körperliche und psychische Dauerbelastung - hier oft *beide* Boni gleichzeitig)
+  - Produktion mit manueller Fertigung, Logistik/Lager mit häufigem Lastenheben
+  
+  Das Argument für die Ansprache: eine schnellere fachärztliche Versorgung
+  (Physiotherapie, Orthopädie) über eine bKV wirkt genau den Belastungen entgegen, die in
+  diesen Berufsfeldern besonders häufig zu Ausfällen führen - ein sachliches,
+  gesundheitsbezogenes Argument statt eines reinen Gehalts-Add-ons.
+- **Überwiegend Bürotätigkeiten ohne Schichtarbeit und ohne körperliche Belastung:** keine
+  Punkte auf keines der beiden Produkte. Beide bleiben relevant, aber das Argument ist
+  eher generisches Fürsorge-/Employer-Branding-Argument als konkretes Risikoargument.
 
 ### Gehaltsstruktur: Geringverdiener- und Hochlohn-Anteil (bAV: +5 je Ausprägung, bKV: +5 bei Hochlohn)
 
@@ -312,9 +347,13 @@ schwer erreichbare Firma kann trotzdem hohes Potenzial haben.
 Firma aus dem Handwerk (hohe Fachkräfte-Dringlichkeit, +15), Umsatz +8 %/+6 % in den
 letzten zwei Jahren (positiv, +15), wachsende Mitarbeiterzahl (positiv, +15), positive
 Presse zu einer Expansion (+10), inhabergeführt (+5), keine bestätigten
-Veränderungssignale (0) → Basis-Score 60 Punkte (Kategorie "Gut"). In den Stellenanzeigen
-wird bAV nur als Stichwort ohne Zuschuss-Angabe genannt (Reifegrad "Gesetzliches Minimum",
-+20), bKV und Unfallversicherung werden gar nicht erwähnt (je +25). Keine Kontextfaktor-
-Treffer. Ergebnis: bAV 80 Punkte → 🟢 Hoch (Ausbaugespräch), bKV 85 Punkte → 🟢 Hoch,
-Unfallversicherung 85 Punkte → 🟢 Hoch - insgesamt ein sehr vielversprechender Lead für
-alle drei Produkte, obwohl "irgendeine bAV" bereits vorhanden ist.
+Veränderungssignale (0), aktuell 6 gleichzeitig offene Stellen (+10) → Basis-Score 70
+Punkte (Kategorie "Gut"). In den Stellenanzeigen wird bAV nur als Stichwort ohne
+Zuschuss-Angabe genannt (Reifegrad "Gesetzliches Minimum", +20), bKV und
+Unfallversicherung werden gar nicht erwähnt (je +25). Die Tätigkeiten sind körperlich
+anspruchsvoll (Montage vor Ort, schweres Heben) - das gibt zusätzlich +5 auf
+Unfallversicherung (Unfallrisiko) und +5 auf bKV (Verschleiß/Krankenstand). Ergebnis: bAV
+90 Punkte → 🟢 Hoch (Ausbaugespräch), bKV 100 Punkte → 🟢 Hoch (auch mit Verweis auf die
+körperliche Belastung), Unfallversicherung 100 Punkte → 🟢 Hoch - ein sehr
+vielversprechender Lead für alle drei Produkte, obwohl "irgendeine bAV" bereits vorhanden
+ist.
